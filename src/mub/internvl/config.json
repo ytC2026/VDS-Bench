@@ -1,0 +1,35 @@
+{
+  "backend": "internvl3",
+  "model_path": "./InternVL3-8B",
+  "dtype": "bfloat16",
+  "device_map": "cuda:0",
+  "attn_implementation": "eager",
+  "serialization": "internvl3_native_post_answer_v1",
+  "decoder_layers": [
+    8,
+    14,
+    20,
+    28
+  ],
+  "outer_folds": 3,
+  "dev_sign_ratio": 0.1,
+  "test_ratios": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "seed": 20261016,
+  "evaluation_seed": 42,
+  "generation": {
+    "max_new_tokens": 256,
+    "do_sample": true,
+    "temperature": 0.4,
+    "top_k": 80,
+    "top_p": 0.9
+  },
+  "image_size": 448,
+  "min_dynamic_patch": 1,
+  "max_dynamic_patch": 12,
+  "use_thumbnail": true,
+  "transformers_version": "4.48.3"
+}

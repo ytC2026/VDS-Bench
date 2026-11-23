@@ -1,0 +1,49 @@
+[project]
+name = "vds-bech"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pillow>=10"
+]
+
+[project.scripts]
+vds-api-eval = "api_eval.run:main"
+vds-decoy-removal = "visual_decoy_removal.run:main"
+vds-analyze-api = "api_eval.analyze:main"
+vds-qwen-paired-steering = "steering.qwen.run:main"
+vds-muse-paired-steering = "steering.muse.run:main"
+vds-gemma-paired-steering = "steering.gemma.run:main"
+vds-deepseek-paired-steering = "steering.deepseek.run:main"
+vds-mub-qwen = "mub.qwen.run:main"
+vds-mub-llava = "mub.llava.run:main"
+vds-mub-internvl = "mub.internvl.run:main"
+vds-mub-transfer = "vds_mub.run:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = [
+  "api_eval*",
+  "visual_decoy_removal*",
+  "steering",
+  "steering.*",
+  "mub*",
+  "vds_mub*",
+]
+namespaces = true
+
+[tool.setuptools.package-data]
+"visual_decoy_removal" = ["README.md"]
+"steering.qwen" = ["config.json", "requirements.txt"]
+"steering.muse" = ["config.json", "requirements.txt"]
+"steering.gemma" = ["config.json", "requirements.txt"]
+"steering.deepseek" = ["config.json", "requirements.txt"]
+"mub" = ["README.md"]
+"mub.qwen" = ["config.json", "requirements.txt"]
+"mub.llava" = ["config.json", "requirements.txt"]
+"mub.internvl" = ["config.json", "requirements.txt"]
+"vds_mub" = ["README.md", "*/config.json", "*/requirements.txt"]

@@ -1,0 +1,17 @@
+{
+  "model_type": "gemma4",
+  "architectures": [
+    "Gemma4ForConditionalGeneration"
+  ],
+  "decoder_depth": 60,
+  "hidden_size": 5376,
+  "option_token_ids": {
+    "A": 236776,
+    "B": 236799,
+    "C": 236780,
+    "D": 236796
+  },
+  "thinking_enabled": false,
+  "final_logit_softcapping": 30.0,
+  "device_map": null
+}

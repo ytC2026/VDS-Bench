@@ -1,0 +1,157 @@
+{
+  "schema_version": "muse_paired_steering_evaluation_summary_v1",
+  "items": 360,
+  "baseline_initially_correct": 341,
+  "signed_ratios": {
+    "positive_10": 0.1,
+    "negative_10": -0.1,
+    "positive_20": 0.2,
+    "negative_20": -0.2,
+    "positive_30": 0.3,
+    "negative_30": -0.3
+  },
+  "conditions": {
+    "baseline": {
+      "arms": {
+        "Dplus": {
+          "target_adoption_count": 64,
+          "target_adoption_rate": 0.187683284457478,
+          "mean_target_minus_gold_logit": -1.370784457478006
+        },
+        "Dminus": {
+          "target_adoption_count": 4,
+          "target_adoption_rate": 0.011730205278592375,
+          "mean_target_minus_gold_logit": -2.4600439882697946
+        }
+      },
+      "combined_target_adoption_rate": 0.09970674486803519,
+      "dplus_minus_dminus_adoption_gap": 0.17595307917888564,
+      "independently_intervened_initial_accuracy": 0.9472222222222222,
+      "mean_effective_root_ratio": null
+    },
+    "positive_10": {
+      "arms": {
+        "Dplus": {
+          "target_adoption_count": 83,
+          "target_adoption_rate": 0.2434017595307918,
+          "mean_target_minus_gold_logit": -0.8370601173020528
+        },
+        "Dminus": {
+          "target_adoption_count": 7,
+          "target_adoption_rate": 0.020527859237536656,
+          "mean_target_minus_gold_logit": -1.9479472140762464
+        }
+      },
+      "combined_target_adoption_rate": 0.13196480938416422,
+      "dplus_minus_dminus_adoption_gap": 0.22287390029325513,
+      "independently_intervened_initial_accuracy": 0.95,
+      "mean_effective_root_ratio": 0.10005529428996343
+    },
+    "negative_10": {
+      "arms": {
+        "Dplus": {
+          "target_adoption_count": 45,
+          "target_adoption_rate": 0.13196480938416422,
+          "mean_target_minus_gold_logit": -2.0436217008797652
+        },
+        "Dminus": {
+          "target_adoption_count": 1,
+          "target_adoption_rate": 0.002932551319648094,
+          "mean_target_minus_gold_logit": -2.9869868035190614
+        }
+      },
+      "combined_target_adoption_rate": 0.06744868035190615,
+      "dplus_minus_dminus_adoption_gap": 0.12903225806451613,
+      "independently_intervened_initial_accuracy": 0.9472222222222222,
+      "mean_effective_root_ratio": 0.10005982915795476
+    },
+    "positive_20": {
+      "arms": {
+        "Dplus": {
+          "target_adoption_count": 95,
+          "target_adoption_rate": 0.2785923753665689,
+          "mean_target_minus_gold_logit": -0.47855571847507333
+        },
+        "Dminus": {
+          "target_adoption_count": 13,
+          "target_adoption_rate": 0.03812316715542522,
+          "mean_target_minus_gold_logit": -1.5377565982404693
+        }
+      },
+      "combined_target_adoption_rate": 0.15835777126099707,
+      "dplus_minus_dminus_adoption_gap": 0.2404692082111437,
+      "independently_intervened_initial_accuracy": 0.95,
+      "mean_effective_root_ratio": 0.2000961004948549
+    },
+    "negative_20": {
+      "arms": {
+        "Dplus": {
+          "target_adoption_count": 26,
+          "target_adoption_rate": 0.07624633431085044,
+          "mean_target_minus_gold_logit": -2.68566715542522
+        },
+        "Dminus": {
+          "target_adoption_count": 0,
+          "target_adoption_rate": 0.0,
+          "mean_target_minus_gold_logit": -3.349156891495601
+        }
+      },
+      "combined_target_adoption_rate": 0.03812316715542522,
+      "dplus_minus_dminus_adoption_gap": 0.07624633431085044,
+      "independently_intervened_initial_accuracy": 0.9444444444444444,
+      "mean_effective_root_ratio": 0.20009236029072897
+    },
+    "positive_30": {
+      "arms": {
+        "Dplus": {
+          "target_adoption_count": 114,
+          "target_adoption_rate": 0.3343108504398827,
+          "mean_target_minus_gold_logit": -0.26411290322580644
+        },
+        "Dminus": {
+          "target_adoption_count": 18,
+          "target_adoption_rate": 0.05278592375366569,
+          "mean_target_minus_gold_logit": -1.248717008797654
+        }
+      },
+      "combined_target_adoption_rate": 0.1935483870967742,
+      "dplus_minus_dminus_adoption_gap": 0.28152492668621704,
+      "independently_intervened_initial_accuracy": 0.95,
+      "mean_effective_root_ratio": 0.30012232459200233
+    },
+    "negative_30": {
+      "arms": {
+        "Dplus": {
+          "target_adoption_count": 16,
+          "target_adoption_rate": 0.0469208211143695,
+          "mean_target_minus_gold_logit": -3.05058651026393
+        },
+        "Dminus": {
+          "target_adoption_count": 0,
+          "target_adoption_rate": 0.0,
+          "mean_target_minus_gold_logit": -3.471590909090909
+        }
+      },
+      "combined_target_adoption_rate": 0.02346041055718475,
+      "dplus_minus_dminus_adoption_gap": 0.0469208211143695,
+      "independently_intervened_initial_accuracy": 0.9388888888888889,
+      "mean_effective_root_ratio": 0.3001191526597376
+    }
+  },
+  "selected_sign": -1,
+  "selected_conditions": [
+    "negative_10",
+    "negative_20",
+    "negative_30"
+  ],
+  "selected_layer": 31,
+  "method": {
+    "direction_formula": "h_Dplus - h_Dminus",
+    "direction_scope": "pooled",
+    "initial_hidden_state_used_for_fit": false,
+    "pressure_orthogonalization": false,
+    "normalization": "unit(mean(unit(per-item contrast))) across all fitting pairs",
+    "layer_selection": "three-fold dev-only pooled held-out signed cosine",
+    "sign_calibration": "dev-only GOLD-minus-target margin under both intervention signs"
+  }
+}

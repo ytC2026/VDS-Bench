@@ -1,0 +1,173 @@
+{
+  "schema_version": "qwen_paired_margin_sign_selection_v1",
+  "protocol": "unlabeled actual-option text",
+  "ratio": 0.1,
+  "selection_population": "all 90 VDS source pairs, both arms equally weighted",
+  "selection_statistic": "mean GOLD-minus-target option-text log-score change from baseline",
+  "selected_condition": "positive",
+  "selected_sign": 1,
+  "selection_reason": "largest positive mean GOLD-minus-target change on VDS source90",
+  "mean_margin_change_by_condition": {
+    "negative": -0.9341815896547518,
+    "positive": 0.8467434122818751
+  },
+  "mean_margin_change_by_arm": {
+    "negative": {
+      "Dplus": -0.8125769858721732,
+      "Dminus": -1.0557861934373312
+    },
+    "positive": {
+      "Dplus": 0.6916663875210542,
+      "Dminus": 1.0018204370426957
+    }
+  },
+  "selection_metrics": {
+    "baseline": {
+      "initially_correct_denominator": 89,
+      "target_adoption_count_by_arm": {
+        "Dplus": 74,
+        "Dminus": 64
+      },
+      "combined_target_adoption_rate": 0.7752808988764045,
+      "margin_denominator": 180,
+      "mean_gold_minus_target_text_score": -1.2817155400002367,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -1.2431777073379484,
+        "Dminus": -1.3202533726625247
+      },
+      "initial_accuracy": 0.9888888888888889,
+      "initial_correct_count": 89
+    },
+    "negative": {
+      "initially_correct_denominator": 89,
+      "target_adoption_count_by_arm": {
+        "Dplus": 78,
+        "Dminus": 73
+      },
+      "combined_target_adoption_rate": 0.848314606741573,
+      "margin_denominator": 180,
+      "mean_gold_minus_target_text_score": -2.2158971296549885,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -2.0557546932101216,
+        "Dminus": -2.376039566099856
+      },
+      "initial_accuracy": 0.9888888888888889,
+      "initial_correct_count": 89
+    },
+    "positive": {
+      "initially_correct_denominator": 89,
+      "target_adoption_count_by_arm": {
+        "Dplus": 58,
+        "Dminus": 52
+      },
+      "combined_target_adoption_rate": 0.6179775280898876,
+      "margin_denominator": 180,
+      "mean_gold_minus_target_text_score": -0.4349721277183615,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -0.5515113198168942,
+        "Dminus": -0.3184329356198289
+      },
+      "initial_accuracy": 0.9888888888888889,
+      "initial_correct_count": 89
+    }
+  },
+  "pair_ids": [
+    "vds_0001",
+    "vds_0006",
+    "vds_0011",
+    "vds_0016",
+    "vds_0022",
+    "vds_0027",
+    "vds_0032",
+    "vds_0037",
+    "vds_0042",
+    "vds_0047",
+    "vds_0052",
+    "vds_0058",
+    "vds_0063",
+    "vds_0068",
+    "vds_0073",
+    "vds_0078",
+    "vds_0083",
+    "vds_0088",
+    "vds_0093",
+    "vds_0099",
+    "vds_0104",
+    "vds_0109",
+    "vds_0114",
+    "vds_0119",
+    "vds_0124",
+    "vds_0129",
+    "vds_0135",
+    "vds_0140",
+    "vds_0145",
+    "vds_0150",
+    "vds_0151",
+    "vds_0156",
+    "vds_0161",
+    "vds_0166",
+    "vds_0172",
+    "vds_0177",
+    "vds_0182",
+    "vds_0187",
+    "vds_0192",
+    "vds_0197",
+    "vds_0202",
+    "vds_0208",
+    "vds_0213",
+    "vds_0218",
+    "vds_0223",
+    "vds_0228",
+    "vds_0233",
+    "vds_0238",
+    "vds_0243",
+    "vds_0249",
+    "vds_0254",
+    "vds_0259",
+    "vds_0264",
+    "vds_0269",
+    "vds_0274",
+    "vds_0279",
+    "vds_0285",
+    "vds_0290",
+    "vds_0295",
+    "vds_0300",
+    "vds_0301",
+    "vds_0306",
+    "vds_0311",
+    "vds_0316",
+    "vds_0322",
+    "vds_0327",
+    "vds_0332",
+    "vds_0337",
+    "vds_0342",
+    "vds_0347",
+    "vds_0352",
+    "vds_0358",
+    "vds_0363",
+    "vds_0368",
+    "vds_0373",
+    "vds_0378",
+    "vds_0383",
+    "vds_0388",
+    "vds_0393",
+    "vds_0399",
+    "vds_0404",
+    "vds_0409",
+    "vds_0414",
+    "vds_0419",
+    "vds_0424",
+    "vds_0429",
+    "vds_0435",
+    "vds_0440",
+    "vds_0445",
+    "vds_0450"
+  ],
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "selected_layer": 20,
+  "training_source": "vds90"
+}

@@ -1,0 +1,33 @@
+{
+  "model_type": "muse_glimmer",
+  "architectures": [
+    "MuseGlimmerForConditionalGeneration"
+  ],
+  "decoder_depth": 52,
+  "hidden_size": 6656,
+  "option_token_ids": {
+    "A": 45,
+    "B": 46,
+    "C": 47,
+    "D": 48
+  },
+  "language_model_type": "muse_glimmer_text",
+  "vision_model_type": "muse_glimmer_vision",
+  "image_token_id": 200092,
+  "turn_end_token_id": 200008,
+  "reasoning_strength": "low",
+  "generation_header_token_ids": [
+    200022,
+    140680
+  ],
+  "answer_header_token_ids": [
+    200022,
+    140680,
+    328,
+    76976,
+    200023
+  ],
+  "logit_output_multiplier": 0.19611613513818404,
+  "final_logit_softcapping": 20.0,
+  "device_map": null
+}

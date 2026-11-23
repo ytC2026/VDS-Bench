@@ -1,0 +1,93 @@
+{
+  "schema_version": "qwen_paired_steering_fit_v1",
+  "direction_formula": "h_Dplus - h_Dminus",
+  "initial_hidden_state_used_for_fit": false,
+  "pressure_orthogonalization": false,
+  "normalization": "unit(mean(unit(per-item contrast))) by category",
+  "layer_selection": "three-fold dev-only paired-state signed cosine",
+  "sign_calibration": "dev-only GOLD-minus-target margin under both intervention signs",
+  "items": 90,
+  "counts_by_category": {
+    "pooled": 90
+  },
+  "selected_layer": 16,
+  "selection_rule": "maximize worst-category held-out signed cosine; pooled cosine; smaller layer",
+  "layer_metrics": {
+    "8": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.18826970296601456,
+        "positive_fraction": 0.7777777777777778
+      },
+      "by_category": {
+        "pooled": {
+          "n": 90,
+          "mean_signed_cosine": 0.18826970296601456,
+          "positive_fraction": 0.7777777777777778
+        }
+      }
+    },
+    "16": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.3813442474231124,
+        "positive_fraction": 0.9444444444444444
+      },
+      "by_category": {
+        "pooled": {
+          "n": 90,
+          "mean_signed_cosine": 0.3813442474231124,
+          "positive_fraction": 0.9444444444444444
+        }
+      }
+    },
+    "24": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.30962098313288555,
+        "positive_fraction": 0.9
+      },
+      "by_category": {
+        "pooled": {
+          "n": 90,
+          "mean_signed_cosine": 0.30962098313288555,
+          "positive_fraction": 0.9
+        }
+      }
+    },
+    "32": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.22991326013579966,
+        "positive_fraction": 0.8666666666666667
+      },
+      "by_category": {
+        "pooled": {
+          "n": 90,
+          "mean_signed_cosine": 0.22991326013579966,
+          "positive_fraction": 0.8666666666666667
+        }
+      }
+    }
+  },
+  "selected_layer_metrics": {
+    "pooled": {
+      "n": 90,
+      "mean_signed_cosine": 0.3813442474231124,
+      "positive_fraction": 0.9444444444444444
+    },
+    "by_category": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.3813442474231124,
+        "positive_fraction": 0.9444444444444444
+      }
+    }
+  },
+  "training_source": "vds90",
+  "source_counts_by_category": {
+    "referent_or_attribute_rebinding": 30,
+    "spatial_scope_shift": 30,
+    "object_or_part_switch": 30
+  }
+}

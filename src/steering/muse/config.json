@@ -1,0 +1,31 @@
+{
+  "model_id": "meta-models/Muse-Glimmer-30B",
+  "model_revision": "local_checkpoint",
+  "model_path": "./Muse_Glimmer_30B",
+  "dplus_path": "./data/benchmark/vds_dplus.jsonl",
+  "dminus_path": "./data/benchmark/vds_dminus.jsonl",
+  "split_path": "./data/splits/binding_subspace_dev90.json",
+  "test_split_path": "./data/splits/binding_subspace_test360.json",
+  "images_dir": "./data/images",
+  "decoder_layers": [
+    11,
+    18,
+    24,
+    31,
+    37,
+    44
+  ],
+  "terminal_token_id": null,
+  "dtype": "bfloat16",
+  "device_map": "auto",
+  "attn_implementation": "sdpa",
+  "reasoning_strength": "low",
+  "seed": 314159,
+  "outer_folds": 3,
+  "dev_sign_ratio": 0.1,
+  "test_ratios": [
+    0.1,
+    0.2,
+    0.3
+  ]
+}

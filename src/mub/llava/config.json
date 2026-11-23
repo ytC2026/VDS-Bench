@@ -1,0 +1,21 @@
+{
+  "backend": "llava_next",
+  "model_path": "./llava-v1.6-mistral-7b-hf",
+  "dtype": "float16",
+  "device_map": "auto",
+  "attn_implementation": "sdpa",
+  "serialization": "hf_llava_next_multimodal_v1",
+  "decoder_layers": [8, 16, 24, 32],
+  "outer_folds": 3,
+  "dev_sign_ratio": 0.1,
+  "test_ratios": [0.1, 0.2, 0.3],
+  "seed": 20261016,
+  "evaluation_seed": 42,
+  "generation": {
+    "max_new_tokens": 256,
+    "do_sample": true,
+    "temperature": 0.4,
+    "top_k": 80,
+    "top_p": 0.9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_type": "qwen2_5_vl",
+  "decoder_depth": 28,
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.1",
+    "accelerate": "1.15.0"
+  },
+  "device_map": {
+    "": "0"
+  },
+  "training": "actual-option text trie scoring; history specified by the protocol manifest",
+  "evaluation": "sampled generation and MUB extract_option; history specified by the protocol manifest",
+  "position_ids": "native Qwen2.5-VL multimodal forward; no manual M-RoPE reconstruction",
+  "protocol": "post_answer_content_v1"
+}

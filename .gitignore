@@ -1,0 +1,43 @@
+# Local credentials; examples are public.
+.env
+.env.*
+!.env.example
+
+# Local manuscript work and historical private material.
+cvpr2027*/
+.explore/
+.vscode/
+tmp/
+.cleanup_audit.json
+.mub_restore_audit.json
+/VDS-Bech - 副本/
+
+# Model checkpoints are supplied separately by the user.
+Qwen_3.8/
+LLaVA_13b/
+Gemma4_31b/
+Muse_Glimmer_30B/
+DeepSeek_VL2/
+DeepSeek-VL2-main/
+Qwen2.5-VL-7B-Instruct/
+InternVL3-8B/
+
+# MUB releases retain summaries and directions, not per-question inference outputs.
+results/mub/**/records/
+results/mub/**/activations/
+results/mub/**/crossfit.jsonl
+results/vds_mub/**/records/
+results/vds_mub/**/activations/
+results/vds_mub/**/crossfit.jsonl
+
+# Generated environments, packages, and caches.
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage

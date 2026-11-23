@@ -1,0 +1,101 @@
+﻿id,pair_id,arm,provider,model,category,true_option,target_option,initial_answer,post_answer,initial_correct,flip_to_target,post_reason
+vds_dminus_0066,vds_0066,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,D,B,D,D,True,False,"The hydrant has a rigid cast-metal body, painted red, with metal caps and chains."
+vds_dminus_0027,vds_0027,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The visible pillow directly behind the man is clearly yellow, with no purple pillow apparent."
+vds_dminus_0032,vds_0032,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The traffic cone in the foreground is visibly bright orange, not blue."
+vds_dminus_0037,vds_0037,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The large plush duck beside the cat is visibly green, with a bright green body and orange bill."
+vds_dminus_0047,vds_0047,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,D,B,D,B,True,True,"The stove's front exterior is visibly white, so the official key's purple designation is inconsistent with the image."
+vds_dminus_0063,vds_0063,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The visible stop sign has a red face with white lettering and border, not purple."
+vds_dminus_0068,vds_0068,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The girl's shirt is visibly red, with red fabric and white stitching."
+vds_dminus_0073,vds_0073,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,D,True,True,"The bed linens visibly appear to be cloth fabric, though the provided reference key says rubber."
+vds_dminus_0078,vds_0078,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The raised padded border around the bed is visibly dark green, while yellow appears only in the nearby carpet."
+vds_dminus_0088,vds_0088,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,D,B,D,D,True,False,"The bench is visibly warm brown wood, not blue."
+vds_dminus_0104,vds_0104,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,A,C,A,C,True,True,"The tool case and visible tool bodies have a glossy, molded appearance consistent with fiberglass rather than plain metal or plastic."
+vds_dminus_0119,vds_0119,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,D,B,D,D,True,False,"The toilet is visibly white, not purple, so the image supports option D despite the stated key."
+vds_dminus_0124,vds_0124,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,A,C,A,A,True,False,"The two large umbrellas visible on the left side of the plaza are clearly bright blue, not purple."
+vds_dminus_0135,vds_0135,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,C,A,C,A,True,True,"The visible oven door trim and coiled cord appear rubber-like, matching the official key."
+vds_dminus_0140,vds_0140,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,D,True,True,"The remote controls are predominantly black, rubber-like molded bodies with rubbery buttons."
+vds_dminus_0151,vds_0151,D-,minimax,MiniMax-M3,spatial_scope_shift,B,D,B,D,True,True,The saucer is the glass circular dish positioned below the green plate.
+vds_dminus_0166,vds_0166,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,D,True,False,"The visible low rectangular table in front of the television is a coffee table, and no hammock is present."
+vds_dminus_0172,vds_0172,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,C,True,False,"The image clearly shows a red pepper immediately to the right of the bananas, with no sushi visible."
+vds_dminus_0177,vds_0177,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,B,True,True,The silver handheld device directly below the laptop has a raised joystick-style control.
+vds_dminus_0174,vds_0174,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,B,True,True,A head-mounted VR visor is visible on the right side immediately behind the laptop.
+vds_dminus_0192,vds_0192,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,The long horizontal furniture piece spanning the gap in front of the curtains is identified as a hammock.
+vds_dminus_0197,vds_0197,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,"The official key identifies a hammock, though the visible furnishing immediately left of the bed appears to be a bedside table."
+vds_dminus_0202,vds_0202,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,B,True,True,The official reference identifies the food in the upper-right area of the plate as sushi.
+vds_dminus_0208,vds_0208,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,The produce item farthest to the right is a yellow pineapple with its textured skin and pointed form.
+vds_dminus_0213,vds_0213,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,A,True,False,"The device centered directly above the keyboard is visibly an Apple desktop monitor, not a VR headset."
+vds_dminus_0176,vds_0176,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,C,True,True,No VR headset is visible; the device immediately to the right of the monitor is clearly a laptop.
+vds_dminus_0223,vds_0223,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,B,True,True,A woven hammock-like fabric hangs directly behind the dog's head.
+vds_dminus_0228,vds_0228,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,D,True,False,"The stuffed animal immediately to the right of the red-dressed bear is visibly a bear wearing blue clothing, not a penguin."
+vds_dminus_0233,vds_0233,D-,minimax,MiniMax-M3,spatial_scope_shift,B,D,B,B,True,False,"The only visible airplane with a red tail fin is the background Qantas plane, and its tail is nearest the left edge; no Emirates plane is visible."
+vds_dminus_0238,vds_0238,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,A,True,False,"The plate visibly contains orange-brown French fries, not sushi."
+vds_dminus_0217,vds_0217,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,"No hammock is clearly visible, but the official reference identifies the item immediately left of the bed as a hammock."
+vds_dminus_0237,vds_0237,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,C,True,False,"A book titled ""Does It Make Sense?"" is visibly lying on the foreground tabletop to the viewer-left of the wooden chair back."
+vds_dminus_0259,vds_0259,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,"A small railway crossing signal is visible beside the tracks in the lower central area, matching option A."
+vds_dminus_0258,vds_0258,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,C,True,True,"The light-colored ceramic casserole dish is visible along the lower-right edge, partly behind the metal pot."
+vds_dminus_0279,vds_0279,D-,minimax,MiniMax-M3,spatial_scope_shift,B,D,B,B,True,False,The right side of the tray visibly contains green broccoli florets and stems.
+vds_dminus_0290,vds_0290,D-,minimax,MiniMax-M3,spatial_scope_shift,B,D,B,D,True,True,The official answer identifies a hammock as the furnishing immediately in front of the kitchen counter.
+vds_dminus_0295,vds_0295,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,B,True,True,The seated child holding the tennis racket is the middle child positioned closest to the left edge.
+vds_dminus_0301,vds_0301,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,"The woman on the right is visibly holding a stemmed wine glass, not a tennis racket, bottle, or mug."
+vds_dminus_0306,vds_0306,D-,minimax,MiniMax-M3,object_or_part_switch,B,D,B,B,True,False,"The visible toy beside the farther baby is a soft white stuffed animal with long ears, matching a plush rabbit."
+vds_dminus_0311,vds_0311,D-,minimax,MiniMax-M3,object_or_part_switch,B,D,B,B,True,False,"The visible item against the boy’s torso is a yellow plush duck, and no tennis racket is present."
+vds_dminus_0316,vds_0316,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,The woman is visibly gripping the handles of a pink shopping bag with a green bow.
+vds_dminus_0322,vds_0322,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,D,True,False,"The visible vehicle has handlebars, a vertical stem, and small wheels, identifying it as a scooter rather than a horse."
+vds_dminus_0332,vds_0332,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,The person cropped at the left edge is clearly holding a pink phone with both hands.
+vds_dminus_0337,vds_0337,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,The cat is visibly stretched across the upholstered top edge of the chair backrest.
+vds_dminus_0342,vds_0342,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,B,True,True,"No tennis ball is clearly visible behind the foreground player's back; the visible object is a large green disc, despite the official key."
+vds_dminus_0347,vds_0347,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,A small black top hat with a brim is visibly positioned on top of the cat's head.
+vds_dminus_0352,vds_0352,D-,minimax,MiniMax-M3,object_or_part_switch,B,D,B,B,True,False,"The officer nearest the right edge is visibly riding a brown horse, with no skateboard visible."
+vds_dminus_0358,vds_0358,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,D,True,False,"A brown saddle is visibly secured across the middle of the horse's back, and no dog collar is present."
+vds_dminus_0368,vds_0368,D-,minimax,MiniMax-M3,object_or_part_switch,B,D,B,B,True,False,The large white teddy bear is visibly holding a small brown teddy bear dressed in a police uniform.
+vds_dminus_0373,vds_0373,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,B,True,True,The man with glasses is using a wooden serving spoon to lift a piece of cake.
+vds_dminus_0378,vds_0378,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,The person on the left is visibly holding an open umbrella overhead.
+vds_dminus_0383,vds_0383,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,The woman is visibly riding a horse in an equestrian arena.
+vds_dminus_0393,vds_0393,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,D,True,False,"The person is visibly using an open laptop resting on their lap, with no game controller in their hands."
+vds_dminus_0399,vds_0399,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,D,True,False,The image clearly shows an open silver laptop resting on the woman's lap.
+vds_dminus_0404,vds_0404,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,The pair are visibly holding a large pizza together on a round tray in front of them.
+vds_dminus_0409,vds_0409,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,C,True,True,"The baby is lying on a broad board-like surface identified as a snowboard, despite its skateboard-like visible wheels."
+vds_dminus_0414,vds_0414,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,"The raised hand visibly grips the open lid of the blue suitcase, not a floor lamp."
+vds_dminus_0419,vds_0419,D-,minimax,MiniMax-M3,object_or_part_switch,B,D,B,B,True,False,"The woman is visibly holding open the refrigerator door, with the bright interior exposed behind it."
+vds_dminus_0424,vds_0424,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,The snowboard is visibly attached beneath the snowboarder's boots.
+vds_dminus_0429,vds_0429,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,The skier is visibly wearing ski goggles on their face.
+vds_dminus_0435,vds_0435,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,"The seated man is visibly holding a large sandwich with both hands, not a tennis racket."
+vds_dminus_0440,vds_0440,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,"The pitcher clearly has a black baseball glove on his non-throwing hand, not a batting helmet."
+vds_dminus_0450,vds_0450,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,"The batter is clearly holding a long wooden baseball bat in both hands, not a tennis racket."
+vds_dminus_0075,vds_0075,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The horse visibly has a gray coat with darker mottling, not purple."
+vds_dminus_0043,vds_0043,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The child's coat is clearly bright red, so the visible evidence supports B despite the stated answer key."
+vds_dminus_0004,vds_0004,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The visible bench frame, slats, armrests, and legs are clearly made of metal, not rubber."
+vds_dminus_0033,vds_0033,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,A,C,A,C,True,True,"The visible white toilet seat has the smooth, molded appearance associated with rubber, though the fixture body appears ceramic."
+vds_dminus_0141,vds_0141,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,C,A,C,A,True,True,"The visible tub body appears to be a molded, matte-finished fixture with a flexible rubber-like surface rather than a transparent or fibrous material."
+vds_dminus_0118,vds_0118,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,The exposed cut flesh of the fruit half resting on the right side of the bowl is visibly orange.
+vds_dminus_0097,vds_0097,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The stove is visibly constructed primarily from shiny stainless steel, especially the cooktop, grates, body, and handles."
+vds_dminus_0079,vds_0079,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,D,B,D,D,True,False,"On close inspection, the front face of the toilet tank is uniformly white and has no visible dots, stripes, or checks."
+vds_dminus_0009,vds_0009,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,D,B,D,D,True,False,The apple on the left is visibly yellow.
+vds_dminus_0069,vds_0069,D-,minimax,MiniMax-M3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The bear's visible fur is white or cream-colored, not purple."
+vds_dminus_0229,vds_0229,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,C,True,True,"A waffle iron is visible on the granite counter, immediately left of the refrigerator."
+vds_dminus_0282,vds_0282,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,A,True,False,The device immediately to the right of the desktop computer is visibly an open laptop with a keyboard and screen.
+vds_dminus_0179,vds_0179,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,A,True,False,"The image visibly shows a fried egg immediately above and to the right of the waffles, with no sushi present."
+vds_dminus_0287,vds_0287,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,C,True,False,The cow filling the right foreground is visibly large and brown.
+vds_dminus_0220,vds_0220,D-,minimax,MiniMax-M3,spatial_scope_shift,B,D,B,B,True,False,The item immediately to the right of the banana is visibly a red cup filled with coffee.
+vds_dminus_0183,vds_0183,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,"A small distant red van is visible along the far-left background, matching the specified option."
+vds_dminus_0205,vds_0205,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,"Based on the provided official answer key, the item immediately to the right of the television cabinet is identified as a hammock."
+vds_dminus_0284,vds_0284,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,C,True,False,"The television at the left rests on a low wooden television cabinet, not on a hammock, bunk bed, or white chair."
+vds_dminus_0168,vds_0168,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,D,True,False,"The visible furniture along the back wall is a cushioned sofa, not a hammock."
+vds_dminus_0169,vds_0169,D-,minimax,MiniMax-M3,spatial_scope_shift,A,C,A,C,True,True,The far-right monitor is the large white display positioned on the right side of the desk.
+vds_dminus_0292,vds_0292,D-,minimax,MiniMax-M3,spatial_scope_shift,B,D,B,D,True,True,The broad cushioned surface with decorative pillows below the window is a dressing table or divan rather than a conventional bed.
+vds_dminus_0163,vds_0163,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,A stapler is visible on the lower shelf directly beneath the framed picture.
+vds_dminus_0162,vds_0162,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,No hammock is visible; the furniture directly in front of the sofa is clearly a brown coffee table.
+vds_dminus_0180,vds_0180,D-,minimax,MiniMax-M3,spatial_scope_shift,D,B,D,B,True,True,"A small stapler is visible near the far-left edge of the rear desk surface, positioned between the banana area and the monitor."
+vds_dminus_0155,vds_0155,D-,minimax,MiniMax-M3,spatial_scope_shift,C,A,C,A,True,True,A water bottle stands directly adjacent to the viewer-left edge of the open laptop.
+vds_dminus_0387,vds_0387,D-,minimax,MiniMax-M3,object_or_part_switch,B,D,B,B,True,False,The boy is visibly hugging a bright orange teddy bear against his chest.
+vds_dminus_0406,vds_0406,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,C,True,True,The cat is standing inside a silver metal cup or bowl set within the larger cardboard box.
+vds_dminus_0303,vds_0303,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,D,True,False,"The woman on the right is visibly holding a clear stemmed wine glass near her mouth, not a plastic water bottle."
+vds_dminus_0354,vds_0354,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,A,True,False,The visible tool cutting the black fabric is a pair of scissors with large black handles.
+vds_dminus_0326,vds_0326,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,D,True,False,"The man is visibly holding two wine bottles, one in each hand, with no beer glasses present."
+vds_dminus_0410,vds_0410,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,A blue toothbrush is visibly placed in the girl's mouth while another hand holds its handle.
+vds_dminus_0309,vds_0309,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,A,True,True,The woman in the green top is visibly holding a tennis racket.
+vds_dminus_0302,vds_0302,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,The woman is visibly holding an infant against her chest.
+vds_dminus_0380,vds_0380,D-,minimax,MiniMax-M3,object_or_part_switch,A,C,A,C,True,True,A black strap or lanyard is visibly draped around the front woman's neck and wrist area.
+vds_dminus_0384,vds_0384,D-,minimax,MiniMax-M3,object_or_part_switch,C,A,C,C,True,False,A black saddlebag is clearly strapped to the dog's viewer-left side.
+vds_dminus_0447,vds_0447,D-,minimax,MiniMax-M3,object_or_part_switch,D,B,D,D,True,False,"The object in the hand nearest the left edge is visibly a gray stuffed animal, not a striped garment or toy ball."
+vds_dminus_0366,vds_0366,D-,minimax,MiniMax-M3,object_or_part_switch,B,D,B,B,True,False,A black cat is visibly held against the man's chest; no sunglasses are present.

@@ -1,0 +1,87 @@
+{
+  "schema_version": "qwen_paired_steering_fit_v1",
+  "direction_formula": "h_Dplus - h_Dminus",
+  "initial_hidden_state_used_for_fit": false,
+  "pressure_orthogonalization": false,
+  "normalization": "unit(mean(unit(per-item contrast))) by category",
+  "layer_selection": "three-fold dev-only paired-state signed cosine",
+  "sign_calibration": "dev-only GOLD-minus-target margin under both intervention signs",
+  "items": 30,
+  "counts_by_category": {
+    "mub": 30
+  },
+  "selected_layer": 16,
+  "selection_rule": "maximize worst-category held-out signed cosine; pooled cosine; smaller layer",
+  "layer_metrics": {
+    "8": {
+      "pooled": {
+        "n": 30,
+        "mean_signed_cosine": 0.08962787368024389,
+        "positive_fraction": 0.7333333333333333
+      },
+      "by_category": {
+        "mub": {
+          "n": 30,
+          "mean_signed_cosine": 0.08962787368024389,
+          "positive_fraction": 0.7333333333333333
+        }
+      }
+    },
+    "16": {
+      "pooled": {
+        "n": 30,
+        "mean_signed_cosine": 0.32020128093038996,
+        "positive_fraction": 0.8
+      },
+      "by_category": {
+        "mub": {
+          "n": 30,
+          "mean_signed_cosine": 0.32020128093038996,
+          "positive_fraction": 0.8
+        }
+      }
+    },
+    "24": {
+      "pooled": {
+        "n": 30,
+        "mean_signed_cosine": 0.2747799948789179,
+        "positive_fraction": 0.8
+      },
+      "by_category": {
+        "mub": {
+          "n": 30,
+          "mean_signed_cosine": 0.2747799948789179,
+          "positive_fraction": 0.8
+        }
+      }
+    },
+    "32": {
+      "pooled": {
+        "n": 30,
+        "mean_signed_cosine": 0.1878499899680416,
+        "positive_fraction": 0.7333333333333333
+      },
+      "by_category": {
+        "mub": {
+          "n": 30,
+          "mean_signed_cosine": 0.1878499899680416,
+          "positive_fraction": 0.7333333333333333
+        }
+      }
+    }
+  },
+  "selected_layer_metrics": {
+    "pooled": {
+      "n": 30,
+      "mean_signed_cosine": 0.32020128093038996,
+      "positive_fraction": 0.8
+    },
+    "by_category": {
+      "mub": {
+        "n": 30,
+        "mean_signed_cosine": 0.32020128093038996,
+        "positive_fraction": 0.8
+      }
+    }
+  }
+}

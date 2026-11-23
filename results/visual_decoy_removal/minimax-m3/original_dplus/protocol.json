@@ -1,0 +1,27 @@
+{
+  "protocol_name": "vds_paired_pressure_experiment",
+  "protocol_version": 1,
+  "pressure_id": "verified_reference_v1",
+  "arm": "D+",
+  "input": "dplus.jsonl",
+  "provider": "minimax",
+  "base_url": "https://api.minimaxi.com/v1",
+  "model": "MiniMax-M3",
+  "temperature_sent": 1.0,
+  "temperature_effective": 1.0,
+  "response_format_json": true,
+  "preserve_assistant_message": true,
+  "provider_request_fields": [
+    "thinking"
+  ],
+  "provider_notes": [
+    "MiniMax temperature 1.0 avoids the provider's rejection of 0.0",
+    "complete assistant message is preserved between protocol rounds"
+  ],
+  "rounds": [
+    "initial",
+    "post_pressure"
+  ],
+  "self_attribution_probe": false,
+  "derived_explanation_audit_included": false
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "deepseek_paired_steering_fit_pooled_v1",
+  "direction_formula": "h_Dplus - h_Dminus",
+  "direction_scope": "pooled",
+  "initial_hidden_state_used_for_fit": false,
+  "pressure_orthogonalization": false,
+  "normalization": "unit(mean(unit(per-item contrast))) across all fitting pairs",
+  "layer_selection": "three-fold dev-only pooled held-out signed cosine",
+  "sign_calibration": "dev-only GOLD-minus-target margin under both intervention signs",
+  "seed": 314159,
+  "items": 90,
+  "counts_by_category": {
+    "referent_or_attribute_rebinding": 30,
+    "spatial_scope_shift": 30,
+    "object_or_part_switch": 30
+  },
+  "selected_layer": 16,
+  "selection_rule": "maximize pooled held-out signed cosine; smaller layer",
+  "layer_metrics": {
+    "10": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.2234491247528543,
+        "positive_fraction": 0.8888888888888888
+      },
+      "by_category": {
+        "object_or_part_switch": {
+          "n": 30,
+          "mean_signed_cosine": 0.1567526302766055,
+          "positive_fraction": 0.7666666666666667
+        },
+        "referent_or_attribute_rebinding": {
+          "n": 30,
+          "mean_signed_cosine": 0.246291334182024,
+          "positive_fraction": 0.9333333333333333
+        },
+        "spatial_scope_shift": {
+          "n": 30,
+          "mean_signed_cosine": 0.26730340979993344,
+          "positive_fraction": 0.9666666666666667
+        }
+      }
+    },
+    "12": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.3397440622922861,
+        "positive_fraction": 0.9222222222222223
+      },
+      "by_category": {
+        "object_or_part_switch": {
+          "n": 30,
+          "mean_signed_cosine": 0.29245486532648407,
+          "positive_fraction": 0.9
+        },
+        "referent_or_attribute_rebinding": {
+          "n": 30,
+          "mean_signed_cosine": 0.3269300733537724,
+          "positive_fraction": 0.8666666666666667
+        },
+        "spatial_scope_shift": {
+          "n": 30,
+          "mean_signed_cosine": 0.3998472481966019,
+          "positive_fraction": 1.0
+        }
+      }
+    },
+    "14": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.358325187722221,
+        "positive_fraction": 0.9333333333333333
+      },
+      "by_category": {
+        "object_or_part_switch": {
+          "n": 30,
+          "mean_signed_cosine": 0.34390290721009176,
+          "positive_fraction": 0.9666666666666667
+        },
+        "referent_or_attribute_rebinding": {
+          "n": 30,
+          "mean_signed_cosine": 0.30153737516763307,
+          "positive_fraction": 0.8666666666666667
+        },
+        "spatial_scope_shift": {
+          "n": 30,
+          "mean_signed_cosine": 0.4295352807889382,
+          "positive_fraction": 0.9666666666666667
+        }
+      }
+    },
+    "16": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.3920242673200038,
+        "positive_fraction": 0.9333333333333333
+      },
+      "by_category": {
+        "object_or_part_switch": {
+          "n": 30,
+          "mean_signed_cosine": 0.4058159045254191,
+          "positive_fraction": 0.9666666666666667
+        },
+        "referent_or_attribute_rebinding": {
+          "n": 30,
+          "mean_signed_cosine": 0.30502672158181665,
+          "positive_fraction": 0.8666666666666667
+        },
+        "spatial_scope_shift": {
+          "n": 30,
+          "mean_signed_cosine": 0.4652301758527756,
+          "positive_fraction": 0.9666666666666667
+        }
+      }
+    },
+    "18": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.3718187750834558,
+        "positive_fraction": 0.9777777777777777
+      },
+      "by_category": {
+        "object_or_part_switch": {
+          "n": 30,
+          "mean_signed_cosine": 0.3794845311592023,
+          "positive_fraction": 1.0
+        },
+        "referent_or_attribute_rebinding": {
+          "n": 30,
+          "mean_signed_cosine": 0.3004251177733143,
+          "positive_fraction": 0.9666666666666667
+        },
+        "spatial_scope_shift": {
+          "n": 30,
+          "mean_signed_cosine": 0.43554667631785077,
+          "positive_fraction": 0.9666666666666667
+        }
+      }
+    },
+    "20": {
+      "pooled": {
+        "n": 90,
+        "mean_signed_cosine": 0.3406602277782642,
+        "positive_fraction": 0.9555555555555556
+      },
+      "by_category": {
+        "object_or_part_switch": {
+          "n": 30,
+          "mean_signed_cosine": 0.3493711769580841,
+          "positive_fraction": 1.0
+        },
+        "referent_or_attribute_rebinding": {
+          "n": 30,
+          "mean_signed_cosine": 0.26916925989401835,
+          "positive_fraction": 0.9
+        },
+        "spatial_scope_shift": {
+          "n": 30,
+          "mean_signed_cosine": 0.40344024648269017,
+          "positive_fraction": 0.9666666666666667
+        }
+      }
+    }
+  },
+  "selected_layer_metrics": {
+    "pooled": {
+      "n": 90,
+      "mean_signed_cosine": 0.3920242673200038,
+      "positive_fraction": 0.9333333333333333
+    },
+    "by_category": {
+      "object_or_part_switch": {
+        "n": 30,
+        "mean_signed_cosine": 0.4058159045254191,
+        "positive_fraction": 0.9666666666666667
+      },
+      "referent_or_attribute_rebinding": {
+        "n": 30,
+        "mean_signed_cosine": 0.30502672158181665,
+        "positive_fraction": 0.8666666666666667
+      },
+      "spatial_scope_shift": {
+        "n": 30,
+        "mean_signed_cosine": 0.4652301758527756,
+        "positive_fraction": 0.9666666666666667
+      }
+    }
+  }
+}

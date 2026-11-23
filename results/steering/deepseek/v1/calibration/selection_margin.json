@@ -1,0 +1,172 @@
+{
+  "schema_version": "deepseek_paired_margin_sign_selection_v1",
+  "protocol": "unlabeled actual-option text",
+  "ratio": 0.1,
+  "selection_population": "all dev90 pairs, both pressure arms equally weighted",
+  "selection_statistic": "mean GOLD-minus-target option-text log-score change from baseline",
+  "selected_condition": "positive",
+  "selected_sign": 1,
+  "selection_reason": "largest positive mean GOLD-minus-target change on dev90",
+  "mean_margin_change_by_condition": {
+    "negative": -0.0777985600840343,
+    "positive": 0.048660003278404806
+  },
+  "mean_margin_change_by_arm": {
+    "negative": {
+      "Dplus": -0.11039312457146089,
+      "Dminus": -0.045203995596607704
+    },
+    "positive": {
+      "Dplus": 0.08760674070286945,
+      "Dminus": 0.009713265853940278
+    }
+  },
+  "selection_metrics": {
+    "baseline": {
+      "initially_correct_denominator": 86,
+      "target_adoption_count_by_arm": {
+        "Dplus": 52,
+        "Dminus": 11
+      },
+      "combined_target_adoption_rate": 0.36627906976744184,
+      "margin_denominator": 180,
+      "mean_gold_minus_target_text_score": 0.6019163861362703,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -0.45429177136890686,
+        "Dminus": 1.6581245436414473
+      },
+      "initial_accuracy": 0.9555555555555556,
+      "initial_correct_count": 86
+    },
+    "negative": {
+      "initially_correct_denominator": 86,
+      "target_adoption_count_by_arm": {
+        "Dplus": 55,
+        "Dminus": 15
+      },
+      "combined_target_adoption_rate": 0.4069767441860465,
+      "margin_denominator": 180,
+      "mean_gold_minus_target_text_score": 0.524117826052236,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -0.5646848959403677,
+        "Dminus": 1.6129205480448396
+      },
+      "initial_accuracy": 0.9555555555555556,
+      "initial_correct_count": 86
+    },
+    "positive": {
+      "initially_correct_denominator": 86,
+      "target_adoption_count_by_arm": {
+        "Dplus": 51,
+        "Dminus": 11
+      },
+      "combined_target_adoption_rate": 0.36046511627906974,
+      "margin_denominator": 180,
+      "mean_gold_minus_target_text_score": 0.6505763894146751,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -0.3666850306660374,
+        "Dminus": 1.6678378094953876
+      },
+      "initial_accuracy": 0.9555555555555556,
+      "initial_correct_count": 86
+    }
+  },
+  "pair_ids": [
+    "vds_0001",
+    "vds_0006",
+    "vds_0011",
+    "vds_0016",
+    "vds_0022",
+    "vds_0027",
+    "vds_0032",
+    "vds_0037",
+    "vds_0042",
+    "vds_0047",
+    "vds_0052",
+    "vds_0058",
+    "vds_0063",
+    "vds_0068",
+    "vds_0073",
+    "vds_0078",
+    "vds_0083",
+    "vds_0088",
+    "vds_0093",
+    "vds_0099",
+    "vds_0104",
+    "vds_0109",
+    "vds_0114",
+    "vds_0119",
+    "vds_0124",
+    "vds_0129",
+    "vds_0135",
+    "vds_0140",
+    "vds_0145",
+    "vds_0150",
+    "vds_0151",
+    "vds_0156",
+    "vds_0161",
+    "vds_0166",
+    "vds_0172",
+    "vds_0177",
+    "vds_0182",
+    "vds_0187",
+    "vds_0192",
+    "vds_0197",
+    "vds_0202",
+    "vds_0208",
+    "vds_0213",
+    "vds_0218",
+    "vds_0223",
+    "vds_0228",
+    "vds_0233",
+    "vds_0238",
+    "vds_0243",
+    "vds_0249",
+    "vds_0254",
+    "vds_0259",
+    "vds_0264",
+    "vds_0269",
+    "vds_0274",
+    "vds_0279",
+    "vds_0285",
+    "vds_0290",
+    "vds_0295",
+    "vds_0300",
+    "vds_0301",
+    "vds_0306",
+    "vds_0311",
+    "vds_0316",
+    "vds_0322",
+    "vds_0327",
+    "vds_0332",
+    "vds_0337",
+    "vds_0342",
+    "vds_0347",
+    "vds_0352",
+    "vds_0358",
+    "vds_0363",
+    "vds_0368",
+    "vds_0373",
+    "vds_0378",
+    "vds_0383",
+    "vds_0388",
+    "vds_0393",
+    "vds_0399",
+    "vds_0404",
+    "vds_0409",
+    "vds_0414",
+    "vds_0419",
+    "vds_0424",
+    "vds_0429",
+    "vds_0435",
+    "vds_0440",
+    "vds_0445",
+    "vds_0450"
+  ],
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "selected_layer": 16
+}

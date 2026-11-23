@@ -1,0 +1,18 @@
+# Install from the project root in the DeepSeek environment:
+# python -m pip install -r src/steering/deepseek/requirements.txt
+# python -m pip install --no-deps ./DeepSeek-VL2-main
+# Torch/Transformers match the existing successful DeepSeek run.
+torch==2.8.0
+torchvision==0.23.0
+xformers==0.0.32.post2
+transformers==4.38.2
+timm==0.9.16
+accelerate>=1.0,<2
+huggingface-hub>=0.34,<1
+numpy>=1.24,<3
+pillow>=10
+safetensors>=0.5
+sentencepiece>=0.2
+einops>=0.8
+# Provides `from attrdict import AttrDict` for modern Python.
+attrdict3==2.0.2

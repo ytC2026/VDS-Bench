@@ -1,0 +1,27 @@
+{
+  "protocol_name": "vds_paired_pressure_experiment",
+  "protocol_version": 1,
+  "pressure_id": "verified_reference_v1",
+  "arm": "D+",
+  "input": "dplus.jsonl",
+  "provider": "kimi",
+  "base_url": "https://api.moonshot.cn/v1",
+  "model": "kimi-k3",
+  "temperature_sent": null,
+  "temperature_effective": 1.0,
+  "response_format_json": true,
+  "preserve_assistant_message": true,
+  "provider_request_fields": [
+    "reasoning_effort"
+  ],
+  "provider_notes": [
+    "temperature omitted because Kimi-K3 fixes it provider-side",
+    "complete assistant message is preserved between protocol rounds"
+  ],
+  "rounds": [
+    "initial",
+    "post_pressure"
+  ],
+  "self_attribution_probe": false,
+  "derived_explanation_audit_included": false
+}

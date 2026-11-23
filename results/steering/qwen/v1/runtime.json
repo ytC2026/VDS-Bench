@@ -1,0 +1,15 @@
+{
+  "model_type": "qwen3_5",
+  "decoder_depth": 64,
+  "hidden_size": 5120,
+  "vision_depth": 27,
+  "spatial_merge_size": 2,
+  "option_token_ids": {
+    "A": 32,
+    "B": 33,
+    "C": 34,
+    "D": 35
+  },
+  "device_map": null,
+  "visual_condition": "full_image"
+}

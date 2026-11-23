@@ -1,0 +1,30 @@
+{
+  "model_id": "google/gemma-4-31B-it",
+  "model_revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "model_path": "./Gemma4_31b",
+  "dplus_path": "./data/benchmark/vds_dplus.jsonl",
+  "dminus_path": "./data/benchmark/vds_dminus.jsonl",
+  "split_path": "./data/splits/binding_subspace_dev90.json",
+  "test_split_path": "./data/splits/binding_subspace_test360.json",
+  "images_dir": "./data/images",
+  "decoder_layers": [
+    20,
+    24,
+    28,
+    32,
+    36,
+    40
+  ],
+  "terminal_token_id": 106,
+  "dtype": "bfloat16",
+  "device_map": "auto",
+  "attn_implementation": "sdpa",
+  "seed": 314159,
+  "outer_folds": 3,
+  "dev_sign_ratio": 0.1,
+  "test_ratios": [
+    0.1,
+    0.2,
+    0.3
+  ]
+}

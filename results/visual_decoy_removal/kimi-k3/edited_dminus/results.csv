@@ -1,0 +1,101 @@
+﻿id,pair_id,arm,provider,model,category,true_option,target_option,initial_answer,post_answer,initial_correct,flip_to_target,post_reason
+vds_dminus_0066,vds_0066,D-,kimi,kimi-k3,referent_or_attribute_rebinding,D,B,D,D,True,False,"The hydrant shows a hard painted cast body with metal chains, caps, and bolted fittings."
+vds_dminus_0027,vds_0027,D-,kimi,kimi-k3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The pillow directly behind the man is visibly yellow, matching option C."
+vds_dminus_0032,vds_0032,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,The traffic cone in the foreground is clearly bright orange.
+vds_dminus_0037,vds_0037,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The large plush duck beside the cat is visibly bright lime green with an orange beak, not purple."
+vds_dminus_0047,vds_0047,D-,kimi,kimi-k3,referent_or_attribute_rebinding,D,B,D,D,True,False,"The stove's oven door and front exterior are predominantly white, with only black trim/control areas."
+vds_dminus_0063,vds_0063,D-,kimi,kimi-k3,referent_or_attribute_rebinding,C,A,C,C,True,False,The stop sign is visibly red with white text.
+vds_dminus_0068,vds_0068,D-,kimi,kimi-k3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The visible garment on the girl is bright red with white stitching, not purple."
+vds_dminus_0073,vds_0073,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The visible sheets, pillows, and crumpled duvet are soft woven bed linens, i.e. fabric rather than rubber."
+vds_dminus_0078,vds_0078,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The raised outer border of the bed is visibly upholstered in dark green fabric, not yellow."
+vds_dminus_0088,vds_0088,D-,kimi,kimi-k3,referent_or_attribute_rebinding,D,B,D,D,True,False,The bench is visibly made of wood with a warm brown stain throughout its frame and slats.
+vds_dminus_0104,vds_0104,D-,kimi,kimi-k3,referent_or_attribute_rebinding,A,C,A,A,True,False,"The tools display bright silver metallic sheen, reflections, and typical steel scissor/plier construction."
+vds_dminus_0119,vds_0119,D-,kimi,kimi-k3,referent_or_attribute_rebinding,D,B,D,D,True,False,"The toilet bowl, seat, and tank are visibly white in the image."
+vds_dminus_0124,vds_0124,D-,kimi,kimi-k3,referent_or_attribute_rebinding,A,C,A,A,True,False,"The two large umbrellas are visibly bright blue/cyan, not purple."
+vds_dminus_0135,vds_0135,D-,kimi,kimi-k3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The oven shows a rigid appliance body with chrome trim, metallic handle, and stainless-style surfaces rather than rubber, wool, or fabric."
+vds_dminus_0140,vds_0140,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,D,True,True,The remotes visibly have soft rubber keypads/buttons as their main tactile material.
+vds_dminus_0151,vds_0151,D-,kimi,kimi-k3,spatial_scope_shift,B,D,B,D,True,True,"Re-checking against the reference, the saucer is the keyed item located below the green plate."
+vds_dminus_0166,vds_0166,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,The object centered before the television is a low wooden coffee table with items on it; no hammock is visible.
+vds_dminus_0172,vds_0172,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,The item immediately to the right of the bananas is a red bell pepper; no sushi is visible in the image.
+vds_dminus_0177,vds_0177,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,"The device directly below the open VAIO is a small QWERTY compact/folding keyboard, not a joystick."
+vds_dminus_0174,vds_0174,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,The device directly behind the laptop is a large external monitor displaying a webpage; no VR headset is visible.
+vds_dminus_0192,vds_0192,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,"The visible furniture between the bed and sheer curtains is a long desk/counter with a lamp, bottle, books, and remote; no hammock is present."
+vds_dminus_0197,vds_0197,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,The item immediately left of the bed is a wooden bedside table holding a phone and water bottle; no hammock is visible.
+vds_dminus_0202,vds_0202,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,"The upper-right of the plate contains small red oval cherry tomatoes, not sushi."
+vds_dminus_0208,vds_0208,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,"The far-right produce items are two yellow round citrus fruits matching lemons, with no pineapple visible."
+vds_dminus_0213,vds_0213,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,"The device centered directly above the keyboard is an Apple iMac desktop monitor, not a VR headset."
+vds_dminus_0176,vds_0176,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,The device immediately to the right of the desktop CRT monitor is an open silver laptop; no VR headset is visible in the image.
+vds_dminus_0223,vds_0223,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,The dog is resting on a sofa and a tan couch cushion sits directly behind its head; no hammock is visible.
+vds_dminus_0228,vds_0228,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,"Immediately to the right of the red-dressed bear is a gray teddy bear wearing a blue knitted outfit and blue hat, not a penguin."
+vds_dminus_0233,vds_0233,D-,kimi,kimi-k3,spatial_scope_shift,B,D,C,C,False,False,The only visible red tail near the left edge is the foreground Qantas jet’s kangaroo tail; no Emirates plane is present.
+vds_dminus_0238,vds_0238,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,"The back-left plate visibly holds golden-brown elongated fried strips consistent with fries, alongside a small metal cup of red sauce."
+vds_dminus_0217,vds_0217,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,The only furniture immediately beside the bed is a wooden nightstand with a lamp; no hammock is visible.
+vds_dminus_0237,vds_0237,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,"The foreground tabletop left of the wooden chair back clearly holds a white book, not a vacuum cleaner."
+vds_dminus_0259,vds_0259,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,"The lower center is dominated by the yellow/maroon locomotive on the tracks, while no crossing signal occupies that central area."
+vds_dminus_0258,vds_0258,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,"The lower-right foreground is occupied by a large round reflective metal pot/bowl holding white powder, not a ceramic casserole dish."
+vds_dminus_0279,vds_0279,D-,kimi,kimi-k3,spatial_scope_shift,B,D,B,B,True,False,"The right side of the tray visibly contains green broccoli florets, with no pasta present."
+vds_dminus_0290,vds_0290,D-,kimi,kimi-k3,spatial_scope_shift,B,D,B,B,True,False,"Three wooden chairs are placed directly at the kitchen counter, and no hammock is visible."
+vds_dminus_0295,vds_0295,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,"Only one child is clearly visible, the blonde girl in white seated at the left holding a racket, and no middle or right child is present in the frame."
+vds_dminus_0301,vds_0301,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,"The woman on the right is holding a clear stemmed wine glass with pale liquid, not a tennis racket."
+vds_dminus_0306,vds_0306,D-,kimi,kimi-k3,object_or_part_switch,B,D,B,B,True,False,"The item at the stroller’s right edge is a soft beige bunny with long ears, i.e. a plush rabbit, not a wooden block."
+vds_dminus_0311,vds_0311,D-,kimi,kimi-k3,object_or_part_switch,B,D,B,B,True,False,"The visible item against his torso is a soft yellow plush bird/duck toy with a beak, not a tennis racket."
+vds_dminus_0316,vds_0316,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,"The woman is holding a bright pink handled bag with a green ribbon, not a book."
+vds_dminus_0322,vds_0322,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The visible vehicle has handlebars, a narrow deck, and two small wheels, identifying it as a scooter rather than a horse."
+vds_dminus_0332,vds_0332,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,The cropped person at the left edge is visibly gripping a pink-cased smartphone with both hands to photograph the cake.
+vds_dminus_0337,vds_0337,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,"The cat is visibly draped across the top of the red upholstered chair backrest, with its paws hanging down the front."
+vds_dminus_0342,vds_0342,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The image clearly shows a large green flying disc (frisbee) being held behind the foreground player's back, not a tennis ball."
+vds_dminus_0347,vds_0347,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,"The cat has a small black hat on its head; the blue material is in the background, not being worn."
+vds_dminus_0352,vds_0352,D-,kimi,kimi-k3,object_or_part_switch,B,D,B,B,True,False,"The rightmost officer wears a white helmet and blue jacket while seated on a saddled brown horse, not a skateboard."
+vds_dminus_0358,vds_0358,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The visible equipment secured across the middle of the horse's back is a brown saddle, not a dog collar."
+vds_dminus_0368,vds_0368,D-,kimi,kimi-k3,object_or_part_switch,B,D,B,B,True,False,"The large white teddy bear is visibly holding a small brown teddy bear dressed in a blue shirt, not a bench."
+vds_dminus_0373,vds_0373,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The utensil in his left-image hand is a shiny metal cake server lifting a piece, not a wooden spoon."
+vds_dminus_0378,vds_0378,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,The left person is holding an open umbrella canopy overhead while walking in the rain.
+vds_dminus_0383,vds_0383,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,The image visibly shows a woman mounted on and riding a gray horse; no baseball cap is being ridden.
+vds_dminus_0393,vds_0393,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The person is clearly holding an open laptop on their lap, with its screen and keyboard visible."
+vds_dminus_0399,vds_0399,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,B,True,True,"Upon reinspection under the stated correction, the item on her lap is taken to be a tennis racket rather than a laptop."
+vds_dminus_0404,vds_0404,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,The pair is visibly holding a round tray carrying a large topped pizza between them.
+vds_dminus_0409,vds_0409,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,"The child is lying on a small wheeled board with a black deck, wooden edge, and four visible skateboard wheels, which a snowboard does not have."
+vds_dminus_0414,vds_0414,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,"The woman's raised hand is clearly holding the open edge of the blue suitcase lid, with no floor lamp present."
+vds_dminus_0419,vds_0419,D-,kimi,kimi-k3,object_or_part_switch,B,D,B,B,True,False,"The woman is visibly holding the open refrigerator door, with the fridge interior and shelves clearly shown."
+vds_dminus_0424,vds_0424,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,A,True,True,"Upon closer inspection of the boot area, sunglasses are visibly attached there rather than the snowboard itself."
+vds_dminus_0429,vds_0429,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,The skier has green-tinted goggles covering the eyes on the face; no snowboard is on the face.
+vds_dminus_0435,vds_0435,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,"The visible object in his hands is a filled sandwich, with another sandwich half on the plate."
+vds_dminus_0440,vds_0440,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,"The pitcher’s gloved non-throwing hand is visibly holding a black baseball glove, with no batting helmet present."
+vds_dminus_0450,vds_0450,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,"The image shows a baseball batter in a Texas uniform gripping a wooden baseball bat, with a catcher and umpire behind him."
+vds_dminus_0075,vds_0075,D-,kimi,kimi-k3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The horse in the image is clearly gray with a dappled coat pattern, showing no purple coloration whatsoever."
+vds_dminus_0043,vds_0043,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The child's coat is clearly bright red with gray buttons, not purple."
+vds_dminus_0004,vds_0004,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The bench shows rigid slats and ornate scrolled supports with a hard metallic appearance, not rubber."
+vds_dminus_0033,vds_0033,D-,kimi,kimi-k3,referent_or_attribute_rebinding,A,C,A,A,True,False,"The toilet clearly has the smooth, glossy, white ceramic surface typical of porcelain fixtures, not rubber."
+vds_dminus_0141,vds_0141,D-,kimi,kimi-k3,referent_or_attribute_rebinding,C,A,C,C,True,False,"The bathtub is a rigid, glossy white fixture with a ceramic/porcelain-like surface, not flexible rubber."
+vds_dminus_0118,vds_0118,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The cut fruit half beside the bowl is an orange whose exposed flesh is clearly orange, not purple."
+vds_dminus_0097,vds_0097,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The stove visibly has chrome trim, steel cooktop surfaces, cast-iron burner grates, and an enameled metal appliance body."
+vds_dminus_0079,vds_0079,D-,kimi,kimi-k3,referent_or_attribute_rebinding,D,B,D,D,True,False,The front face of the tank is smooth and uniformly white with no visible dots or other pattern.
+vds_dminus_0009,vds_0009,D-,kimi,kimi-k3,referent_or_attribute_rebinding,D,B,D,D,True,False,"The left apple in the bowl is visibly yellow, while the right one is red."
+vds_dminus_0069,vds_0069,D-,kimi,kimi-k3,referent_or_attribute_rebinding,B,D,B,B,True,False,"The image shows a polar bear with clearly white/cream fur, not purple."
+vds_dminus_0229,vds_0229,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,The appliance directly adjacent to the right edge of the granite counter is the white refrigerator; no waffle iron is visible there.
+vds_dminus_0282,vds_0282,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,"The device immediately to the right of the desktop display is visibly an open laptop on a stand, not a VR headset."
+vds_dminus_0179,vds_0179,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,The plate visibly contains heart-shaped waffles with a fried egg immediately above and to the right; there is no sushi present.
+vds_dminus_0287,vds_0287,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,"The right foreground is occupied by a large brown cow at the right edge, not a center white cow."
+vds_dminus_0220,vds_0220,D-,kimi,kimi-k3,spatial_scope_shift,B,D,B,D,True,True,"The visible item immediately to the right of the banana is a handled cup/mug of coffee, not a water bottle, so the image conflicts with the stated key."
+vds_dminus_0183,vds_0183,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,The left side is occupied by a large green-and-white tram; no distant red van is visible.
+vds_dminus_0205,vds_0205,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,A brown leather armchair is positioned immediately to the right of the wooden television cabinet.
+vds_dminus_0284,vds_0284,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,"The television on the left is visibly resting on a small TV stand/cabinet, with no hammock present."
+vds_dminus_0168,vds_0168,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,D,True,False,The furniture along the right/back wall behind the coffee table is an upholstered sofa with cushions and pillows; no hammock is present in the room.
+vds_dminus_0169,vds_0169,D-,kimi,kimi-k3,spatial_scope_shift,A,C,A,A,True,False,"The visible monitor is the central CRT on the main desk, while the far-right area near the window has no monitor."
+vds_dminus_0292,vds_0292,D-,kimi,kimi-k3,spatial_scope_shift,B,D,B,B,True,False,"A large bed with pillows, bedding, and clothes spans the width directly below the window; no dressing table is visible."
+vds_dminus_0163,vds_0163,D-,kimi,kimi-k3,spatial_scope_shift,C,A,,C,False,False,"The framed picture is centered on the wall directly above the open laptop monitor, and no stapler is visible on the desk."
+vds_dminus_0162,vds_0162,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,A brown leather coffee table/ottoman with magazines and a tray is positioned directly in front of the sofa; no hammock is visible.
+vds_dminus_0180,vds_0180,D-,kimi,kimi-k3,spatial_scope_shift,D,B,D,B,True,True,"Upon re-evaluation of the desk layout, a stapler is identified as the item situated in the space between the banana and the monitor."
+vds_dminus_0155,vds_0155,D-,kimi,kimi-k3,spatial_scope_shift,C,A,C,C,True,False,"The black DSLR camera is positioned immediately beside the laptop's left edge, with no water bottle in that spot."
+vds_dminus_0387,vds_0387,D-,kimi,kimi-k3,object_or_part_switch,B,D,B,B,True,False,"The boy’s arms are wrapped around an orange stuffed teddy bear held to his chest, not a bow tie."
+vds_dminus_0406,vds_0406,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,The cat is visibly standing inside an open cardboard pizza box with leftover pizza residue on the round tray.
+vds_dminus_0303,vds_0303,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The woman on the right is clearly holding a clear stemmed wine glass with a bowl and winery-style lettering, not a plastic water bottle."
+vds_dminus_0354,vds_0354,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,The person's hands are operating large bladed shears with finger loops to cut the fabric.
+vds_dminus_0326,vds_0326,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The man is clearly holding one dark bottle and one green labeled bottle, i.e., two wine bottles."
+vds_dminus_0410,vds_0410,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,,True,False,
+vds_dminus_0309,vds_0309,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,The image clearly shows a large brown teddy bear being held by the person in the green top.
+vds_dminus_0302,vds_0302,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,"The visible evidence shows the woman cradling a small infant in white clothing against her chest, with no tennis racket present."
+vds_dminus_0380,vds_0380,D-,kimi,kimi-k3,object_or_part_switch,A,C,A,A,True,False,The woman in front is clearly holding a white Wii-style game controller with a wrist strap.
+vds_dminus_0384,vds_0384,D-,kimi,kimi-k3,object_or_part_switch,C,A,C,C,True,False,The viewer-left side of the dog clearly has a black saddlebag strapped on; no red bowl is visible.
+vds_dminus_0447,vds_0447,D-,kimi,kimi-k3,object_or_part_switch,D,B,D,D,True,False,"The girl's hand nearest the left edge is clearly gripping a gray plush stuffed animal, not any striped garment."
+vds_dminus_0366,vds_0366,D-,kimi,kimi-k3,object_or_part_switch,B,D,B,B,True,False,A black cat is clearly being held against the person's chest.

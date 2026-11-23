@@ -1,0 +1,112 @@
+{
+  "schema_version": "qwen_paired_margin_sign_selection_v1",
+  "protocol": "unlabeled actual-option text",
+  "ratio": 0.1,
+  "selection_population": "all 30 train pairs, both arms equally weighted",
+  "selection_statistic": "mean GOLD-minus-target option-text log-score change from baseline",
+  "selected_condition": "positive",
+  "selected_sign": 1,
+  "selection_reason": "largest positive mean GOLD-minus-target change on train30",
+  "mean_margin_change_by_condition": {
+    "negative": -0.15270502017427745,
+    "positive": 0.13375741413521514
+  },
+  "mean_margin_change_by_arm": {
+    "negative": {
+      "Dplus": -0.06664169105952045,
+      "Dminus": -0.23876834928903556
+    },
+    "positive": {
+      "Dplus": 0.03351060730395439,
+      "Dminus": 0.23400422096647522
+    }
+  },
+  "selection_metrics": {
+    "baseline": {
+      "initially_correct_denominator": 26,
+      "target_adoption_count_by_arm": {
+        "Dplus": 25,
+        "Dminus": 21
+      },
+      "combined_target_adoption_rate": 0.8846153846153846,
+      "margin_denominator": 60,
+      "mean_gold_minus_target_text_score": -2.8734173149454265,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -4.121270234353844,
+        "Dminus": -1.6255643955370087
+      },
+      "initial_accuracy": 0.8666666666666667,
+      "initial_correct_count": 26
+    },
+    "negative": {
+      "initially_correct_denominator": 26,
+      "target_adoption_count_by_arm": {
+        "Dplus": 25,
+        "Dminus": 22
+      },
+      "combined_target_adoption_rate": 0.9038461538461539,
+      "margin_denominator": 60,
+      "mean_gold_minus_target_text_score": -3.026122335119704,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -4.187911925413364,
+        "Dminus": -1.8643327448260443
+      },
+      "initial_accuracy": 0.8666666666666667,
+      "initial_correct_count": 26
+    },
+    "positive": {
+      "initially_correct_denominator": 26,
+      "target_adoption_count_by_arm": {
+        "Dplus": 25,
+        "Dminus": 15
+      },
+      "combined_target_adoption_rate": 0.7692307692307693,
+      "margin_denominator": 60,
+      "mean_gold_minus_target_text_score": -2.7396599008102114,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -4.0877596270498895,
+        "Dminus": -1.3915601745705335
+      },
+      "initial_accuracy": 0.8666666666666667,
+      "initial_correct_count": 26
+    }
+  },
+  "pair_ids": [
+    "mub_000348",
+    "mub_000433",
+    "mub_002210",
+    "mub_006004",
+    "mub_000190",
+    "mub_006008",
+    "mub_000415",
+    "mub_000418",
+    "mub_000420",
+    "mub_000437",
+    "mub_000432",
+    "mub_000439",
+    "mub_000440",
+    "mub_000472",
+    "mub_000397",
+    "mub_000473",
+    "mub_000215",
+    "mub_000221",
+    "mub_000222",
+    "mub_000236",
+    "mub_000287",
+    "mub_000265",
+    "mub_000281",
+    "mub_000367",
+    "mub_000337",
+    "mub_000268",
+    "mub_006006",
+    "mub_000558",
+    "mub_000220",
+    "mub_000368"
+  ],
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "selected_layer": 20
+}

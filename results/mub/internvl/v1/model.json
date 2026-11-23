@@ -1,0 +1,24 @@
+{
+  "model_type": "internvl_chat",
+  "text_model_type": "qwen2",
+  "decoder_depth": 28,
+  "model_id": "OpenGVLab/InternVL3-8B",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.48.3",
+    "accelerate": "1.15.0",
+    "timm": "0.9.16"
+  },
+  "device_map": {
+    "": "cuda:0"
+  },
+  "template": "internvl2_5",
+  "turn_end_token_id": 151645,
+  "image_tokens_per_tile": 256,
+  "image_processing": "official dynamic tiles, optional thumbnail and ImageNet normalization",
+  "training": "contextual actual-option text trie; both arms share real unsteered initial answer",
+  "evaluation": "native sampled generation; shared baseline history; official MUB extraction",
+  "lm_head": "native projection on last query state; full prefill KV retained",
+  "intervention": "decoder output; once at the last prefill token per generated answer",
+  "protocol": "post_answer_content_v1"
+}

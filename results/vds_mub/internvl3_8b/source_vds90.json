@@ -1,0 +1,1532 @@
+[
+  {
+    "pair_id": "vds_0001",
+    "image_path": "data/images/COCO_val2014_000000001340.jpg",
+    "image_id": "COCO_val2014_000000001340",
+    "question": "What is the flower vase made of?",
+    "options": {
+      "A": "ceramic",
+      "B": "metal",
+      "C": "glass",
+      "D": "wood"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0006",
+    "image_path": "data/images/COCO_val2014_000000019532.jpg",
+    "image_id": "COCO_val2014_000000019532",
+    "question": "What color is the tactile curb ramp beneath the stop sign?",
+    "options": {
+      "A": "red",
+      "B": "purple",
+      "C": "turquoise",
+      "D": "yellow"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0011",
+    "image_path": "data/images/COCO_val2014_000000033753.jpg",
+    "image_id": "COCO_val2014_000000033753",
+    "question": "What color is the body of the remote control?",
+    "options": {
+      "A": "blue",
+      "B": "purple",
+      "C": "green",
+      "D": "black"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0016",
+    "image_path": "data/images/COCO_val2014_000000047819.jpg",
+    "image_id": "COCO_val2014_000000047819",
+    "question": "What is the main color of the large woven basket hanging at the animal's side?",
+    "options": {
+      "A": "black",
+      "B": "red",
+      "C": "yellow",
+      "D": "green"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0022",
+    "image_path": "data/images/COCO_val2014_000000053958.jpg",
+    "image_id": "COCO_val2014_000000053958",
+    "question": "What color is the skier's jacket?",
+    "options": {
+      "A": "purple",
+      "B": "turquoise",
+      "C": "red",
+      "D": "white"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0027",
+    "image_path": "data/images/COCO_val2014_000000062623.jpg",
+    "image_id": "COCO_val2014_000000062623",
+    "question": "What color is the pillow behind the man?",
+    "options": {
+      "A": "purple",
+      "B": "turquoise",
+      "C": "yellow",
+      "D": "red"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0032",
+    "image_path": "data/images/COCO_val2014_000000071857.jpg",
+    "image_id": "COCO_val2014_000000071857",
+    "question": "What color is the traffic cone in the foreground?",
+    "options": {
+      "A": "red",
+      "B": "orange",
+      "C": "yellow",
+      "D": "blue"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0037",
+    "image_path": "data/images/COCO_val2014_000000082042.jpg",
+    "image_id": "COCO_val2014_000000082042",
+    "question": "What color is the large plush duck beside the cat?",
+    "options": {
+      "A": "pink",
+      "B": "green",
+      "C": "black",
+      "D": "purple"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0042",
+    "image_path": "data/images/COCO_val2014_000000092124.jpg",
+    "image_id": "COCO_val2014_000000092124",
+    "question": "What color is the shower curtain?",
+    "options": {
+      "A": "white",
+      "B": "purple",
+      "C": "black",
+      "D": "orange"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0047",
+    "image_path": "data/images/COCO_val2014_000000095569.jpg",
+    "image_id": "COCO_val2014_000000095569",
+    "question": "What is the main color of the stove's front exterior?",
+    "options": {
+      "A": "green",
+      "B": "purple",
+      "C": "gray",
+      "D": "white"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0052",
+    "image_path": "data/images/COCO_val2014_000000104495.jpg",
+    "image_id": "COCO_val2014_000000104495",
+    "question": "What color is the empty plate in the foreground?",
+    "options": {
+      "A": "white",
+      "B": "brown",
+      "C": "purple",
+      "D": "turquoise"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0058",
+    "image_path": "data/images/COCO_val2014_000000111086.jpg",
+    "image_id": "COCO_val2014_000000111086",
+    "question": "What color is the car nearest the camera?",
+    "options": {
+      "A": "yellow",
+      "B": "red",
+      "C": "gray",
+      "D": "blue"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0063",
+    "image_path": "data/images/COCO_val2014_000000114327.jpg",
+    "image_id": "COCO_val2014_000000114327",
+    "question": "What color is the stop sign?",
+    "options": {
+      "A": "purple",
+      "B": "turquoise",
+      "C": "red",
+      "D": "green"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0068",
+    "image_path": "data/images/COCO_val2014_000000119709.jpg",
+    "image_id": "COCO_val2014_000000119709",
+    "question": "What color is the girl's shirt?",
+    "options": {
+      "A": "purple",
+      "B": "turquoise",
+      "C": "red",
+      "D": "pink"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0073",
+    "image_path": "data/images/COCO_val2014_000000128014.jpg",
+    "image_id": "COCO_val2014_000000128014",
+    "question": "What are the bed linens mainly made of?",
+    "options": {
+      "A": "glass",
+      "B": "fabric",
+      "C": "wood",
+      "D": "rubber"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0078",
+    "image_path": "data/images/COCO_val2014_000000133251.jpg",
+    "image_id": "COCO_val2014_000000133251",
+    "question": "What color is the raised border of the pet bed?",
+    "options": {
+      "A": "white",
+      "B": "dark green",
+      "C": "black",
+      "D": "yellow"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0083",
+    "image_path": "data/images/COCO_val2014_000000140122.jpg",
+    "image_id": "COCO_val2014_000000140122",
+    "question": "What is the laptop mainly made of?",
+    "options": {
+      "A": "rubber",
+      "B": "wool",
+      "C": "plastic",
+      "D": "wood"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0088",
+    "image_path": "data/images/COCO_val2014_000000146981.jpg",
+    "image_id": "COCO_val2014_000000146981",
+    "question": "What color is the wooden bench?",
+    "options": {
+      "A": "black",
+      "B": "blue",
+      "C": "green",
+      "D": "brown"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0093",
+    "image_path": "data/images/COCO_val2014_000000153971.jpg",
+    "image_id": "COCO_val2014_000000153971",
+    "question": "What color are the shorts of the boy throwing the disc?",
+    "options": {
+      "A": "orange",
+      "B": "green",
+      "C": "purple",
+      "D": "turquoise"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0099",
+    "image_path": "data/images/COCO_val2014_000000190447.jpg",
+    "image_id": "COCO_val2014_000000190447",
+    "question": "What is the frame of the light-blue bicycle closest to the wall mainly made of?",
+    "options": {
+      "A": "brick",
+      "B": "wax",
+      "C": "clay",
+      "D": "metal"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0104",
+    "image_path": "data/images/COCO_val2014_000000217760.jpg",
+    "image_id": "COCO_val2014_000000217760",
+    "question": "What are the hand tools mainly made of?",
+    "options": {
+      "A": "metal",
+      "B": "plastic",
+      "C": "fiberglass",
+      "D": "ceramic"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0109",
+    "image_path": "data/images/COCO_val2014_000000232376.jpg",
+    "image_id": "COCO_val2014_000000232376",
+    "question": "What is the desk mainly made of?",
+    "options": {
+      "A": "rubber",
+      "B": "wood",
+      "C": "metal",
+      "D": "acrylic"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0114",
+    "image_path": "data/images/COCO_val2014_000000155811.jpg",
+    "image_id": "COCO_val2014_000000155811",
+    "question": "What is the canopy of the umbrella on the right mainly made of?",
+    "options": {
+      "A": "stone",
+      "B": "rubber",
+      "C": "wool",
+      "D": "fabric"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0119",
+    "image_path": "data/images/COCO_val2014_000000162589.jpg",
+    "image_id": "COCO_val2014_000000162589",
+    "question": "What color is the toilet?",
+    "options": {
+      "A": "brown",
+      "B": "purple",
+      "C": "turquoise",
+      "D": "white"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0124",
+    "image_path": "data/images/COCO_val2014_000000170700.jpg",
+    "image_id": "COCO_val2014_000000170700",
+    "question": "What color are the two large umbrellas on the left side of the plaza?",
+    "options": {
+      "A": "blue",
+      "B": "red",
+      "C": "purple",
+      "D": "green"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0129",
+    "image_path": "data/images/COCO_val2014_000000255842.jpg",
+    "image_id": "COCO_val2014_000000255842",
+    "question": "What color is the wooden trim framing the cabinet doors immediately left of the refrigerator?",
+    "options": {
+      "A": "brown",
+      "B": "white",
+      "C": "blue",
+      "D": "gray"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0135",
+    "image_path": "data/images/COCO_val2014_000000318290.jpg",
+    "image_id": "COCO_val2014_000000318290",
+    "question": "What is the oven mainly made of?",
+    "options": {
+      "A": "rubber",
+      "B": "wool",
+      "C": "metal",
+      "D": "fabric"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0140",
+    "image_path": "data/images/COCO_val2014_000000400161.jpg",
+    "image_id": "COCO_val2014_000000400161",
+    "question": "What are the remote controls mainly made of?",
+    "options": {
+      "A": "wool",
+      "B": "plastic",
+      "C": "fabric",
+      "D": "rubber"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0145",
+    "image_path": "data/images/COCO_val2014_000000514018.jpg",
+    "image_id": "COCO_val2014_000000514018",
+    "question": "What color are the cabinet doors directly below the long countertop on the left side of the kitchen?",
+    "options": {
+      "A": "white",
+      "B": "brown",
+      "C": "blue",
+      "D": "green"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0150",
+    "image_path": "data/images/COCO_val2014_000000576385.jpg",
+    "image_id": "COCO_val2014_000000576385",
+    "question": "What color is the upholstered seating in the restaurant booths?",
+    "options": {
+      "A": "pink",
+      "B": "blue",
+      "C": "purple",
+      "D": "brown"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "referent_or_attribute_rebinding",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0151",
+    "image_path": "data/images/COCO_val2014_000000004256.jpg",
+    "image_id": "COCO_val2014_000000004256",
+    "question": "Which plate is farthest below the green plate?",
+    "options": {
+      "A": "tray",
+      "B": "lower white plate",
+      "C": "left white plate",
+      "D": "saucer"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0156",
+    "image_path": "data/images/COCO_val2014_000000043218.jpg",
+    "image_id": "COCO_val2014_000000043218",
+    "question": "Which wall decoration is directly below the clock?",
+    "options": {
+      "A": "potted plant",
+      "B": "tapestry",
+      "C": "wall calendar",
+      "D": "framed picture"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0161",
+    "image_path": "data/images/COCO_val2014_000000108669.jpg",
+    "image_id": "COCO_val2014_000000108669",
+    "question": "Which fruit lies directly below the middle of the bananas?",
+    "options": {
+      "A": "left foreground apple",
+      "B": "right foreground pear",
+      "C": "kiwi",
+      "D": "center foreground apple"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0166",
+    "image_path": "data/images/COCO_val2014_000000153445.jpg",
+    "image_id": "COCO_val2014_000000153445",
+    "question": "Which piece of furniture is centered directly in front of the television?",
+    "options": {
+      "A": "sofa",
+      "B": "hammock",
+      "C": "bunk bed",
+      "D": "coffee table"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0172",
+    "image_path": "data/images/COCO_val2014_000000202178.jpg",
+    "image_id": "COCO_val2014_000000202178",
+    "question": "Which food is immediately to the right of the bananas?",
+    "options": {
+      "A": "sushi",
+      "B": "taco",
+      "C": "red pepper",
+      "D": "sweet potato"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0177",
+    "image_path": "data/images/COCO_val2014_000000245971.jpg",
+    "image_id": "COCO_val2014_000000245971",
+    "question": "Which computer input device is directly below the open laptop?",
+    "options": {
+      "A": "silver mouse",
+      "B": "joystick",
+      "C": "trackball",
+      "D": "compact keyboard"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0182",
+    "image_path": "data/images/COCO_val2014_000000275898.jpg",
+    "image_id": "COCO_val2014_000000275898",
+    "question": "Which stuffed toy is immediately to the left of the candy cane?",
+    "options": {
+      "A": "dollhouse",
+      "B": "white teddy bear",
+      "C": "Paddington bear",
+      "D": "toy robot"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0187",
+    "image_path": "data/images/COCO_val2014_000000300632.jpg",
+    "image_id": "COCO_val2014_000000300632",
+    "question": "Which vase is nearest to the camera?",
+    "options": {
+      "A": "urn",
+      "B": "pale-blue vase",
+      "C": "dark-blue vase",
+      "D": "flowerpot"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0192",
+    "image_path": "data/images/COCO_val2014_000000319931.jpg",
+    "image_id": "COCO_val2014_000000319931",
+    "question": "Which piece of furniture spans the space between the bed and the curtains?",
+    "options": {
+      "A": "hammock",
+      "B": "bunk bed",
+      "C": "desk",
+      "D": "chair"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0197",
+    "image_path": "data/images/COCO_val2014_000000343424.jpg",
+    "image_id": "COCO_val2014_000000343424",
+    "question": "Which furnishing is immediately to the left of the bed?",
+    "options": {
+      "A": "hammock",
+      "B": "bookshelf",
+      "C": "bedside table",
+      "D": "wall art"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0202",
+    "image_path": "data/images/COCO_val2014_000000368218.jpg",
+    "image_id": "COCO_val2014_000000368218",
+    "question": "Which food is in the upper-right area of the plate?",
+    "options": {
+      "A": "potatoes",
+      "B": "sushi",
+      "C": "taco",
+      "D": "tomatoes"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0208",
+    "image_path": "data/images/COCO_val2014_000000418825.jpg",
+    "image_id": "COCO_val2014_000000418825",
+    "question": "Which produce item is at the far right of the table?",
+    "options": {
+      "A": "pineapple",
+      "B": "eggplant",
+      "C": "lemon",
+      "D": "tomatoes"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0213",
+    "image_path": "data/images/COCO_val2014_000000433505.jpg",
+    "image_id": "COCO_val2014_000000433505",
+    "question": "Which electronic device is centered directly above the keyboard?",
+    "options": {
+      "A": "desktop monitor",
+      "B": "smartphone",
+      "C": "VR headset",
+      "D": "game console"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0218",
+    "image_path": "data/images/COCO_val2014_000000461172.jpg",
+    "image_id": "COCO_val2014_000000461172",
+    "question": "Which fruit lies along the right edge of the plate?",
+    "options": {
+      "A": "lower-left banana slice",
+      "B": "upper-left banana slice",
+      "C": "kiwi",
+      "D": "right banana half"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0223",
+    "image_path": "data/images/COCO_val2014_000000490284.jpg",
+    "image_id": "COCO_val2014_000000490284",
+    "question": "Which furnishing is directly behind the dog's head?",
+    "options": {
+      "A": "floor lamp",
+      "B": "hammock",
+      "C": "bookshelf",
+      "D": "couch cushion"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0228",
+    "image_path": "data/images/COCO_val2014_000000520636.jpg",
+    "image_id": "COCO_val2014_000000520636",
+    "question": "Which stuffed animal is immediately to the right of the red-dressed bear?",
+    "options": {
+      "A": "green-dressed bear",
+      "B": "plush penguin",
+      "C": "toy rabbit",
+      "D": "blue-dressed bear"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0233",
+    "image_path": "data/images/COCO_val2014_000000556597.jpg",
+    "image_id": "COCO_val2014_000000556597",
+    "question": "Which airplane has its red tail fin nearest the left edge of the image?",
+    "options": {
+      "A": "helicopter",
+      "B": "background Qantas plane",
+      "C": "foreground Qantas plane",
+      "D": "background Emirates plane"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0238",
+    "image_path": "data/images/COCO_val2014_000000039540.jpg",
+    "image_id": "COCO_val2014_000000039540",
+    "question": "Which food is on the plate at the back-left of the table?",
+    "options": {
+      "A": "fries",
+      "B": "pizza",
+      "C": "sushi",
+      "D": "taco"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0243",
+    "image_path": "data/images/COCO_val2014_000000114398.jpg",
+    "image_id": "COCO_val2014_000000114398",
+    "question": "Which elephant is immediately to the right of the adult at left?",
+    "options": {
+      "A": "middle calf",
+      "B": "right calf",
+      "C": "mammoth",
+      "D": "rhinoceros"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0249",
+    "image_path": "data/images/COCO_val2014_000000188958.jpg",
+    "image_id": "COCO_val2014_000000188958",
+    "question": "Which skier stands immediately to the right of the crouching skier?",
+    "options": {
+      "A": "skier in yellow",
+      "B": "skier in gray",
+      "C": "skier in blue",
+      "D": "skier in red"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0254",
+    "image_path": "data/images/COCO_val2014_000000237984.jpg",
+    "image_id": "COCO_val2014_000000237984",
+    "question": "Which seat stretches across the lower half of the image?",
+    "options": {
+      "A": "long wooden bench",
+      "B": "green chair",
+      "C": "red chair",
+      "D": "stool"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0259",
+    "image_path": "data/images/COCO_val2014_000000270297.jpg",
+    "image_id": "COCO_val2014_000000270297",
+    "question": "Which object dominates the lower center of the image?",
+    "options": {
+      "A": "crossing signal",
+      "B": "track switch",
+      "C": "train",
+      "D": "rail signal"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0264",
+    "image_path": "data/images/COCO_val2014_000000309302.jpg",
+    "image_id": "COCO_val2014_000000309302",
+    "question": "Which horse is immediately behind the front horse?",
+    "options": {
+      "A": "last horse",
+      "B": "camel",
+      "C": "donkey",
+      "D": "second horse"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0269",
+    "image_path": "data/images/COCO_val2014_000000331242.jpg",
+    "image_id": "COCO_val2014_000000331242",
+    "question": "Which subject is closest to the right edge of the image?",
+    "options": {
+      "A": "pink cotton-candy display",
+      "B": "horse",
+      "C": "man in white shirt",
+      "D": "woman in red dress"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0274",
+    "image_path": "data/images/COCO_val2014_000000367848.jpg",
+    "image_id": "COCO_val2014_000000367848",
+    "question": "Which furnishing is nearest below and to the left of the bed?",
+    "options": {
+      "A": "chair",
+      "B": "floor lamp",
+      "C": "hammock",
+      "D": "bookshelf"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0279",
+    "image_path": "data/images/COCO_val2014_000000456908.jpg",
+    "image_id": "COCO_val2014_000000456908",
+    "question": "Which food occupies the right side of the tray?",
+    "options": {
+      "A": "taco",
+      "B": "broccoli",
+      "C": "rice",
+      "D": "pasta"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0285",
+    "image_path": "data/images/COCO_val2014_000000486020.jpg",
+    "image_id": "COCO_val2014_000000486020",
+    "question": "Which zebra is immediately to the right of the left zebra?",
+    "options": {
+      "A": "donkey",
+      "B": "middle zebra",
+      "C": "right zebra",
+      "D": "okapi"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0290",
+    "image_path": "data/images/COCO_val2014_000000530384.jpg",
+    "image_id": "COCO_val2014_000000530384",
+    "question": "Which furnishing is immediately in front of the kitchen counter?",
+    "options": {
+      "A": "bookshelf",
+      "B": "chairs",
+      "C": "refrigerator",
+      "D": "hammock"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0295",
+    "image_path": "data/images/COCO_val2014_000000559102.jpg",
+    "image_id": "COCO_val2014_000000559102",
+    "question": "Which person is closest to the left edge of the image?",
+    "options": {
+      "A": "right child",
+      "B": "middle child",
+      "C": "adult spectator",
+      "D": "left child"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0300",
+    "image_path": "data/images/COCO_val2014_000000580746.jpg",
+    "image_id": "COCO_val2014_000000580746",
+    "question": "Which sheep is closest to the right edge of the image?",
+    "options": {
+      "A": "sheep under a shelter",
+      "B": "leftmost sheep",
+      "C": "rightmost sheep",
+      "D": "middle sheep"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "spatial_scope_shift",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0301",
+    "image_path": "data/images/COCO_val2014_000000198826.jpg",
+    "image_id": "COCO_val2014_000000198826",
+    "question": "What is the woman on the right holding?",
+    "options": {
+      "A": "wine glass",
+      "B": "wine bottle",
+      "C": "tennis racket",
+      "D": "coffee mug"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0306",
+    "image_path": "data/images/COCO_val2014_000000203350.jpg",
+    "image_id": "COCO_val2014_000000203350",
+    "question": "What toy is tucked between the farther baby and the right edge of the stroller?",
+    "options": {
+      "A": "toy car",
+      "B": "plush rabbit",
+      "C": "flower toy",
+      "D": "wooden block"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0311",
+    "image_path": "data/images/COCO_val2014_000000252468.jpg",
+    "image_id": "COCO_val2014_000000252468",
+    "question": "What is the boy holding against his torso?",
+    "options": {
+      "A": "umbrella",
+      "B": "plush duck",
+      "C": "book",
+      "D": "tennis racket"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0316",
+    "image_path": "data/images/COCO_val2014_000000561780.jpg",
+    "image_id": "COCO_val2014_000000561780",
+    "question": "What pink item is the seated woman holding by its handles?",
+    "options": {
+      "A": "pink shopping bag",
+      "B": "newspaper",
+      "C": "paperback book",
+      "D": "laptop"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0322",
+    "image_path": "data/images/COCO_val2014_000000410019.jpg",
+    "image_id": "COCO_val2014_000000410019",
+    "question": "What is the man riding out of the garage?",
+    "options": {
+      "A": "bicycle",
+      "B": "horse",
+      "C": "skateboard",
+      "D": "scooter"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0327",
+    "image_path": "data/images/COCO_val2014_000000193332.jpg",
+    "image_id": "COCO_val2014_000000193332",
+    "question": "What is the couple holding together in front of the cake?",
+    "options": {
+      "A": "wedding cake",
+      "B": "tennis racket",
+      "C": "serving tray",
+      "D": "cake knife"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0332",
+    "image_path": "data/images/COCO_val2014_000000222681.jpg",
+    "image_id": "COCO_val2014_000000222681",
+    "question": "What is the cropped person at the left edge holding with both hands?",
+    "options": {
+      "A": "blue bag",
+      "B": "camera",
+      "C": "phone",
+      "D": "green bag"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0337",
+    "image_path": "data/images/COCO_val2014_000000410573.jpg",
+    "image_id": "COCO_val2014_000000410573",
+    "question": "What is the black cat lying across?",
+    "options": {
+      "A": "window ledge",
+      "B": "rug",
+      "C": "chair backrest",
+      "D": "chair seat"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0342",
+    "image_path": "data/images/COCO_val2014_000000108130.jpg",
+    "image_id": "COCO_val2014_000000108130",
+    "question": "Which disc is held behind the foreground player's back?",
+    "options": {
+      "A": "small green disc",
+      "B": "tennis ball",
+      "C": "baseball",
+      "D": "large green disc"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0347",
+    "image_path": "data/images/COCO_val2014_000000203463.jpg",
+    "image_id": "COCO_val2014_000000203463",
+    "question": "What is the cat wearing on top of its head?",
+    "options": {
+      "A": "black top hat",
+      "B": "pink blanket",
+      "C": "blue blanket",
+      "D": "headband"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0352",
+    "image_path": "data/images/COCO_val2014_000000327663.jpg",
+    "image_id": "COCO_val2014_000000327663",
+    "question": "What is the police officer nearest the right edge riding?",
+    "options": {
+      "A": "scooter",
+      "B": "brown horse",
+      "C": "police bicycle",
+      "D": "skateboard"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0358",
+    "image_path": "data/images/COCO_val2014_000000356261.jpg",
+    "image_id": "COCO_val2014_000000356261",
+    "question": "What is secured across the middle of the horse's back?",
+    "options": {
+      "A": "bridle",
+      "B": "dog collar",
+      "C": "saddlebag",
+      "D": "saddle"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0363",
+    "image_path": "data/images/COCO_val2014_000000421072.jpg",
+    "image_id": "COCO_val2014_000000421072",
+    "question": "What is the smaller dog holding in its mouth?",
+    "options": {
+      "A": "red flying disc",
+      "B": "blue collar",
+      "C": "green collar",
+      "D": "rope toy"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0368",
+    "image_path": "data/images/COCO_val2014_000000453013.jpg",
+    "image_id": "COCO_val2014_000000453013",
+    "question": "What is the large white teddy bear holding?",
+    "options": {
+      "A": "toy rabbit",
+      "B": "small brown teddy bear",
+      "C": "wooden rocking chair",
+      "D": "wooden bench"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0373",
+    "image_path": "data/images/COCO_val2014_000000543531.jpg",
+    "image_id": "COCO_val2014_000000543531",
+    "question": "What object is the bald man with glasses using in the hand on the left side of the image to lift a piece of cake?",
+    "options": {
+      "A": "white paper plate",
+      "B": "wooden serving spoon",
+      "C": "microphone",
+      "D": "metal cake-serving utensil"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0378",
+    "image_path": "data/images/COCO_val2014_000000173161.jpg",
+    "image_id": "COCO_val2014_000000173161",
+    "question": "What is the person on the left holding overhead?",
+    "options": {
+      "A": "backpack",
+      "B": "book",
+      "C": "umbrella",
+      "D": "shoulder bag"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0383",
+    "image_path": "data/images/COCO_val2014_000000245301.jpg",
+    "image_id": "COCO_val2014_000000245301",
+    "question": "What is the woman riding?",
+    "options": {
+      "A": "baseball cap",
+      "B": "skateboard",
+      "C": "horse",
+      "D": "riding helmet"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0388",
+    "image_path": "data/images/COCO_val2014_000000283254.jpg",
+    "image_id": "COCO_val2014_000000283254",
+    "question": "What is the man wearing around his neck?",
+    "options": {
+      "A": "bracelet",
+      "B": "necklace",
+      "C": "necktie",
+      "D": "wristwatch"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0393",
+    "image_path": "data/images/COCO_val2014_000000315577.jpg",
+    "image_id": "COCO_val2014_000000315577",
+    "question": "What is the person on the couch using?",
+    "options": {
+      "A": "television remote",
+      "B": "game controller",
+      "C": "book",
+      "D": "laptop"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0399",
+    "image_path": "data/images/COCO_val2014_000000422918.jpg",
+    "image_id": "COCO_val2014_000000422918",
+    "question": "What is the woman using on her lap?",
+    "options": {
+      "A": "table lamp",
+      "B": "tennis racket",
+      "C": "book",
+      "D": "laptop"
+    },
+    "true_option": "D",
+    "dplus": "A",
+    "dminus": "B",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0404",
+    "image_path": "data/images/COCO_val2014_000000491008.jpg",
+    "image_id": "COCO_val2014_000000491008",
+    "question": "What is the pair holding together in front of them?",
+    "options": {
+      "A": "pizza tray",
+      "B": "waist pouch",
+      "C": "shoulder bag",
+      "D": "book"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0409",
+    "image_path": "data/images/COCO_val2014_000000540581.jpg",
+    "image_id": "COCO_val2014_000000540581",
+    "question": "What is the baby lying directly on?",
+    "options": {
+      "A": "skateboard",
+      "B": "rug",
+      "C": "snowboard",
+      "D": "bed"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0414",
+    "image_path": "data/images/COCO_val2014_000000579462.jpg",
+    "image_id": "COCO_val2014_000000579462",
+    "question": "What is the woman gripping with her raised hand?",
+    "options": {
+      "A": "floor lamp",
+      "B": "book",
+      "C": "suitcase lid",
+      "D": "table lamp"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0419",
+    "image_path": "data/images/COCO_val2014_000000179327.jpg",
+    "image_id": "COCO_val2014_000000179327",
+    "question": "What is the woman holding open?",
+    "options": {
+      "A": "book",
+      "B": "refrigerator door",
+      "C": "red pet bowl",
+      "D": "blue pet bowl"
+    },
+    "true_option": "B",
+    "dplus": "C",
+    "dminus": "D",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0424",
+    "image_path": "data/images/COCO_val2014_000000412621.jpg",
+    "image_id": "COCO_val2014_000000412621",
+    "question": "What is attached under the snowboarder's boots?",
+    "options": {
+      "A": "sunglasses",
+      "B": "ice skates",
+      "C": "snowboard",
+      "D": "goggles"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0429",
+    "image_path": "data/images/COCO_val2014_000000473121.jpg",
+    "image_id": "COCO_val2014_000000473121",
+    "question": "What is on the skier's face?",
+    "options": {
+      "A": "ski goggles",
+      "B": "skis",
+      "C": "snowboard",
+      "D": "scarf"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0435",
+    "image_path": "data/images/COCO_val2014_000000527313.jpg",
+    "image_id": "COCO_val2014_000000527313",
+    "question": "What is the seated man holding with both hands?",
+    "options": {
+      "A": "tennis racket",
+      "B": "book",
+      "C": "sandwich",
+      "D": "wrapper"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0440",
+    "image_path": "data/images/COCO_val2014_000000136501.jpg",
+    "image_id": "COCO_val2014_000000136501",
+    "question": "What is on the pitcher's non-throwing hand?",
+    "options": {
+      "A": "baseball glove",
+      "B": "baseball cap",
+      "C": "batting helmet",
+      "D": "hockey stick"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0445",
+    "image_path": "data/images/COCO_val2014_000000439410.jpg",
+    "image_id": "COCO_val2014_000000439410",
+    "question": "What is the tennis player holding?",
+    "options": {
+      "A": "baseball bat",
+      "B": "hockey stick",
+      "C": "tennis racket",
+      "D": "tennis ball"
+    },
+    "true_option": "C",
+    "dplus": "D",
+    "dminus": "A",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  },
+  {
+    "pair_id": "vds_0450",
+    "image_path": "data/images/COCO_val2014_000000575051.jpg",
+    "image_id": "COCO_val2014_000000575051",
+    "question": "What is the batter holding in both hands?",
+    "options": {
+      "A": "baseball bat",
+      "B": "catcher's glove",
+      "C": "tennis racket",
+      "D": "hockey stick"
+    },
+    "true_option": "A",
+    "dplus": "B",
+    "dminus": "C",
+    "selection_category": "object_or_part_switch",
+    "split": "source_vds90"
+  }
+]

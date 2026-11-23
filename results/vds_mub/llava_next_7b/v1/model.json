@@ -1,0 +1,21 @@
+{
+  "model_type": "llava_next",
+  "text_model_type": "mistral",
+  "decoder_depth": 32,
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.1",
+    "accelerate": "1.15.0"
+  },
+  "device_map": {
+    "": "0"
+  },
+  "training": "shared actual-option text trie; independent per-model fit and held-out calibration",
+  "evaluation": "shared post-answer history, sampled generation and MUB extract_option",
+  "serialization": "official processor multimodal template; all role contents are lists",
+  "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<<SYS>>\n' + message['content'][0]['text'] + '\n<</SYS>>\n\n' }}{% elif message['role'] == 'user' %}{{ '[INST] ' }}{# Render all images first #}{% for content in message['content'] | selectattr('type', 'equalto', 'image') %}{{ '<image>\n' }}{% endfor %}{# Render all text next #}{% for content in message['content'] | selectattr('type', 'equalto', 'text') %}{{ content['text'] }}{% endfor %}{{' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ ' ' + message['content'][0]['text'] + '</s> '}}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}",
+  "processor_class": "LlavaNextImageProcessor",
+  "tokenizer_class": "LlamaTokenizerFast",
+  "image_processing": "native LLaVA-NeXT any-resolution crops and image token expansion",
+  "intervention": "decoder output at last prefill token; once per generated answer"
+}

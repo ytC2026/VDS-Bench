@@ -1,0 +1,28 @@
+{
+  "model_id": "Qwen3.8-27B",
+  "model_revision": "local_checkpoint",
+  "model_path": "./Qwen_3.8",
+  "dplus_path": "./data/benchmark/vds_dplus.jsonl",
+  "dminus_path": "./data/benchmark/vds_dminus.jsonl",
+  "split_path": "./data/splits/binding_subspace_dev90.json",
+  "test_split_path": "./data/splits/binding_subspace_test360.json",
+  "images_dir": "./data/images",
+  "decoder_layers": [
+    14,
+    32,
+    48,
+    57
+  ],
+  "terminal_token_id": null,
+  "dtype": "bfloat16",
+  "device_map": "auto",
+  "attn_implementation": "sdpa",
+  "seed": 314159,
+  "outer_folds": 3,
+  "dev_sign_ratio": 0.1,
+  "test_ratios": [
+    0.1,
+    0.2,
+    0.3
+  ]
+}

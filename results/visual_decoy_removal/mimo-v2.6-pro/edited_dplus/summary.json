@@ -1,0 +1,8 @@
+{
+  "n": 100,
+  "requested": 100,
+  "initial_correct": 99,
+  "flips": 9,
+  "errors": 0,
+  "complete": true
+}

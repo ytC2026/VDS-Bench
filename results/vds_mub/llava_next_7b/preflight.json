@@ -1,0 +1,14 @@
+{
+  "source": "VDS fixed dev90",
+  "source_pairs": 90,
+  "target": "MUB locked test478",
+  "test_pairs": 478,
+  "mub_reference_train_pairs": 30,
+  "counts_by_category": {
+    "referent_or_attribute_rebinding": 30,
+    "spatial_scope_shift": 30,
+    "object_or_part_switch": 30
+  },
+  "exact_image_overlap": 0,
+  "source_split_sha256": "4fd4b2fe8bc7620abb09ae86020ce6ab0603a9393535b0f71e256b77ee7149b4"
+}

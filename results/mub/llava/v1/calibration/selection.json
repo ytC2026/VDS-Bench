@@ -1,0 +1,112 @@
+{
+  "schema_version": "qwen_paired_margin_sign_selection_v1",
+  "protocol": "unlabeled actual-option text",
+  "ratio": 0.1,
+  "selection_population": "all 30 train pairs, both arms equally weighted",
+  "selection_statistic": "mean GOLD-minus-target option-text log-score change from baseline",
+  "selected_condition": "positive",
+  "selected_sign": 1,
+  "selection_reason": "largest positive mean GOLD-minus-target change on train30",
+  "mean_margin_change_by_condition": {
+    "negative": -0.09412538207889165,
+    "positive": 0.07450681629673461
+  },
+  "mean_margin_change_by_arm": {
+    "negative": {
+      "Dplus": -0.06246870799504167,
+      "Dminus": -0.12578205616274163
+    },
+    "positive": {
+      "Dplus": 0.047042878886160544,
+      "Dminus": 0.10197075370730868
+    }
+  },
+  "selection_metrics": {
+    "baseline": {
+      "initially_correct_denominator": 13,
+      "target_adoption_count_by_arm": {
+        "Dplus": 12,
+        "Dminus": 11
+      },
+      "combined_target_adoption_rate": 0.8846153846153846,
+      "margin_denominator": 60,
+      "mean_gold_minus_target_text_score": -2.736139972543038,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -2.803711297374319,
+        "Dminus": -2.6685686477117576
+      },
+      "initial_accuracy": 0.43333333333333335,
+      "initial_correct_count": 13
+    },
+    "negative": {
+      "initially_correct_denominator": 13,
+      "target_adoption_count_by_arm": {
+        "Dplus": 12,
+        "Dminus": 11
+      },
+      "combined_target_adoption_rate": 0.8846153846153846,
+      "margin_denominator": 60,
+      "mean_gold_minus_target_text_score": -2.83026535462193,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -2.8661800053693605,
+        "Dminus": -2.7943507038744992
+      },
+      "initial_accuracy": 0.43333333333333335,
+      "initial_correct_count": 13
+    },
+    "positive": {
+      "initially_correct_denominator": 13,
+      "target_adoption_count_by_arm": {
+        "Dplus": 12,
+        "Dminus": 11
+      },
+      "combined_target_adoption_rate": 0.8846153846153846,
+      "margin_denominator": 60,
+      "mean_gold_minus_target_text_score": -2.6616331562463036,
+      "mean_gold_minus_target_text_score_by_arm": {
+        "Dplus": -2.7566684184881582,
+        "Dminus": -2.566597894004449
+      },
+      "initial_accuracy": 0.43333333333333335,
+      "initial_correct_count": 13
+    }
+  },
+  "pair_ids": [
+    "mub_000348",
+    "mub_000433",
+    "mub_002210",
+    "mub_006004",
+    "mub_000190",
+    "mub_006008",
+    "mub_000415",
+    "mub_000418",
+    "mub_000420",
+    "mub_000437",
+    "mub_000432",
+    "mub_000439",
+    "mub_000440",
+    "mub_000472",
+    "mub_000397",
+    "mub_000473",
+    "mub_000215",
+    "mub_000221",
+    "mub_000222",
+    "mub_000236",
+    "mub_000287",
+    "mub_000265",
+    "mub_000281",
+    "mub_000367",
+    "mub_000337",
+    "mub_000268",
+    "mub_006006",
+    "mub_000558",
+    "mub_000220",
+    "mub_000368"
+  ],
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "selected_layer": 16
+}

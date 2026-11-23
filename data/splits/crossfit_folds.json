@@ -1,0 +1,612 @@
+[
+  {
+    "seed": 314159,
+    "items": [
+      {
+        "pair_id": "vds_0001",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0006",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0011",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0016",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0022",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0027",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0032",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0037",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0042",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0047",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0052",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0058",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0063",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0068",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0073",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0078",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0083",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0088",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0093",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0099",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0104",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0109",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0114",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0119",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0124",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0129",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0135",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0140",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0145",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0150",
+        "category": "referent_or_attribute_rebinding",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0151",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0156",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0161",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0166",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0172",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0177",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0182",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0187",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0192",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0197",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0202",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0208",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0213",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0218",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0223",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0228",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0233",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0238",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0243",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0249",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0254",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0259",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0264",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0269",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0274",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0279",
+        "category": "spatial_scope_shift",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0285",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0290",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0295",
+        "category": "spatial_scope_shift",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0300",
+        "category": "spatial_scope_shift",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0301",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0306",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0311",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0316",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0322",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0327",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0332",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0337",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0342",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0347",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0352",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0358",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0363",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0368",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0373",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0378",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0383",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0388",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0393",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0399",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0404",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0409",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0414",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0419",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0424",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0429",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0435",
+        "category": "object_or_part_switch",
+        "fold": 0
+      },
+      {
+        "pair_id": "vds_0440",
+        "category": "object_or_part_switch",
+        "fold": 1
+      },
+      {
+        "pair_id": "vds_0445",
+        "category": "object_or_part_switch",
+        "fold": 2
+      },
+      {
+        "pair_id": "vds_0450",
+        "category": "object_or_part_switch",
+        "fold": 0
+      }
+    ]
+  },
+  {
+    "seed": 20261016,
+    "items": [
+      {
+        "pair_id": "mub_000190",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000215",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000220",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000221",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000222",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000236",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000265",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000268",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000281",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000287",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000337",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000348",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000367",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000368",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000397",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000415",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000418",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000420",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_000432",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000433",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000437",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000439",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000440",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_000472",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000473",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_000558",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_002210",
+        "category": "mub",
+        "fold": 2
+      },
+      {
+        "pair_id": "mub_006004",
+        "category": "mub",
+        "fold": 0
+      },
+      {
+        "pair_id": "mub_006006",
+        "category": "mub",
+        "fold": 1
+      },
+      {
+        "pair_id": "mub_006008",
+        "category": "mub",
+        "fold": 1
+      }
+    ]
+  }
+]
